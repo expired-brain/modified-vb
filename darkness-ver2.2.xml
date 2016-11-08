@@ -1,0 +1,2960 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<style name="Darkness2" vbversion="3.8.4" product="vbulletin" type="custom">
+	<templategroup name="CSS Special Templates">
+		<template name=".alt1, .alt1Active" templatetype="css" date="1130031864" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:59:"border: 2px solid #000000; 
+border-width: 1px 1px 1px 1px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".alt2, .alt2Active" templatetype="css" date="1130031864" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:7:"#262623";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:59:"border: 2px solid #1A1A1A; 
+border-width: 1px 1px 1px 1px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".button" templatetype="css" date="1130075002" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"11px";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";}]]></template>
+		<template name=".fjdpth0" templatetype="css" date="1130033035" username="Sean" version=""><![CDATA[a:2:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";}]]></template>
+		<template name=".fjsel" templatetype="css" date="1130033035" username="Sean" version=""><![CDATA[a:2:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";}]]></template>
+		<template name=".page" templatetype="css" date="1130031580" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:250:"html {scrollbar-face-color: #181818;
+scrollbar-highlight-color: #313328;
+scrollbar-shadow-color: #313328;
+scrollbar-3dlight-color: #76766C; 
+scrollbar-arrow-color: #FFFFFF; 
+scrollbar-track-color: #181818; 
+scrollbar-darkshadow-color: #313328;}";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".panel" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:76:"#1A1A1A url(images/Darkness2/gradients/gradient_panel.gif) repeat-x top left";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:35:"padding: 10px;
+border: 2px outset;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".panelsurround" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:84:"#1A1A1A url(images/Darkness2/gradients/gradient_panelsurround.gif) repeat-x top left";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:0:"";}]]></template>
+		<template name=".tborder" templatetype="css" date="1130031580" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:7:"#313131";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:26:"border: 1px solid #313131;";}]]></template>
+		<template name=".tcat" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:75:"#1A1A1A url(images/Darkness2/gradients/gradient_tcat.gif) repeat-x top left";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:4:"bold";s:4:"size";s:4:"10pt";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:59:"border: 2px solid #1A1A1A; 
+border-width: 1px 1px 1px 1px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#ffffff";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#ffffff";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#696878";s:15:"text-decoration";s:4:"none";}}]]></template>
+		<template name=".tfoot" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:75:"#1A1A1A url(images/Darkness2/gradients/gradient_tcat.gif) repeat-x top left";s:5:"color";s:7:"#E0E0F6";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:59:"border: 2px solid #000000; 
+border-width: 1px 1px 1px 1px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#E0E0F6";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#E0E0F6";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFF66";s:15:"text-decoration";s:4:"none";}}]]></template>
+		<template name=".thead" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:76:"#1A1A1A url(images/Darkness2/gradients/gradient_thead.gif) repeat-x top left";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:4:"bold";s:4:"size";s:4:"11px";s:6:"family";s:78:"tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:59:"border: 2px solid #1A1A1A; 
+border-width: 1px 1px 1px 1px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#696878";s:15:"text-decoration";s:4:"none";}}]]></template>
+		<template name=".vbmenu_control" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:75:"#1A1A1A url(images/Darkness2/gradients/gradient_tcat.gif) repeat-x top left";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:4:"bold";s:4:"size";s:4:"11px";s:6:"family";s:78:"tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:47:"padding: 3px 6px 3px 6px;
+white-space: nowrap;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:9:"underline";}}]]></template>
+		<template name=".vbmenu_hilite" templatetype="css" date="1130033035" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"11px";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:38:"white-space: nowrap;
+cursor: pointer;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}}]]></template>
+		<template name=".vbmenu_option" templatetype="css" date="1130033035" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"11px";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:38:"white-space: nowrap;
+cursor: pointer;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#D3D4AA";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#D3D4AA";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}}]]></template>
+		<template name=".vbmenu_popup" templatetype="css" date="1130033035" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:26:"border: 1px solid #000000;";}]]></template>
+		<template name=".wysiwyg" templatetype="css" date="1130075002" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"10pt";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name="body" templatetype="css" date="1214623193" username="Sean" version=""><![CDATA[a:7:{s:10:"background";s:51:"#000000 url(images/Darkness2/misc/back3.gif) repeat";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"10pt";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:42:"margin: 5px 10px 10px 10px;
+padding: 0px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#D3D4AA";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#D3D4AA";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#696878";s:15:"text-decoration";s:4:"none";}}]]></template>
+		<template name="EXTRA" templatetype="css" date="1189510723" username="Sean" version=""><![CDATA[a:1:{s:3:"all";s:1000:"/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px;}
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px;}
+
+/* ***** don't change the following ***** */
+form { display: inline; }
+label { cursor: default; }
+.normal { font-weight: normal; }
+.inlineimg { vertical-align: middle; }
+.underline { text-decoration: underline; }";}]]></template>
+		<template name="EXTRA2" templatetype="css" date="1214624702" username="Sean" version=""><![CDATA[a:1:{s:3:"all";s:1379:".top {
+background: url("images/Darkness2/misc/top2.jpg");
+}
+
+.top2 {
+background: url("images/Darkness2/misc/top.jpg") no-repeat center;
+}
+
+.side1 {
+vertical-align: top;
+}
+
+.side2 {
+vertical-align: top;
+background: url("images/Darkness2/misc/side2.jpg");
+}
+
+.headerbot {
+background: url("images/Darkness2/misc/headerbot2.jpg");
+}
+
+.q3 {
+background: url("images/Darkness2/misc/q3.jpg");
+}
+
+.q5 {
+background: url("images/Darkness2/misc/q5.jpg");
+}
+
+.a2 {
+background: url("images/Darkness2/misc/a2.jpg");
+}
+
+.aq1 {
+background: url("images/Darkness2/misc/aq1.jpg");
+}
+
+.aq1-1 {
+background: url("images/Darkness2/misc/aq1-1.jpg");
+}
+
+.s2 {
+background: url("images/Darkness2/misc/s2.jpg");
+}
+
+.w1 {
+background: url("images/Darkness2/misc/w1.jpg");
+}
+
+.w2 {
+background: url("images/Darkness2/misc/w2.jpg");
+}
+
+.w1-1 {
+background: url("images/Darkness2/misc/w1-1.jpg");
+}
+
+.z2 {
+background: url("images/Darkness2/misc/z2.jpg");
+}
+
+.side3 {
+background: url("images/Darkness2/misc/side3.jpg");
+}
+
+.side4 {
+background: url("images/Darkness2/misc/side2.jpg");
+}
+
+.side5 {
+background: url("images/Darkness2/misc/side3.jpg");
+}
+
+.botbase {
+background: url("images/Darkness2/misc/botbase.jpg");
+}
+
+.a5 {
+background: url("images/Darkness2/misc/a5.gif");
+}
+
+.a6 {
+background: url("images/Darkness2/misc/a2.gif");
+}";}]]></template>
+		<template name="legend" templatetype="css" date="1130075002" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"11px";s:6:"family";s:78:"tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";}]]></template>
+		<template name="select" templatetype="css" date="1130075002" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"11px";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";}]]></template>
+		<template name="textarea, .bginput" templatetype="css" date="1130075002" username="Sean" version=""><![CDATA[a:4:{s:10:"background";s:7:"#1A1A1A";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"10pt";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";}]]></template>
+	</templategroup>
+	<templategroup name="StyleVar Special Templates">
+		<template name="imgdir_attach" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/attach]]></template>
+		<template name="imgdir_button" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/buttons]]></template>
+		<template name="imgdir_editor" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/editor]]></template>
+		<template name="imgdir_misc" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/misc]]></template>
+		<template name="imgdir_poll" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/polls]]></template>
+		<template name="imgdir_rating" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/rating]]></template>
+		<template name="imgdir_reputation" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/reputation]]></template>
+		<template name="imgdir_statusicon" templatetype="stylevar" date="1214623193" username="Sean" version=""><![CDATA[images/Darkness2/statusicon]]></template>
+		<template name="outerborderwidth" templatetype="stylevar" date="1130075425" username="Sean" version=""><![CDATA[0]]></template>
+		<template name="spacersize" templatetype="stylevar" date="1130075425" username="Sean" version=""><![CDATA[5]]></template>
+		<template name="titleimage" templatetype="stylevar" date="1130029823" username="Sean" version="" />
+	</templategroup>
+	<templategroup name="BB Code Layout">
+		<template name="bbcode_code" templatetype="template" date="1189510506" username="Sean" version="3.6.8"><![CDATA[<div style="margin:20px; margin-top:5px">
+   <div class="smallfont" style="margin-bottom:2px">$vbphrase[code]:</div>
+   <pre class="alt2" dir="ltr" style="
+      margin: 0px;
+      padding: $stylevar[cellpadding]px;
+      border: 1px inset;
+      width: 90%;
+      height: {$blockheight}px;
+      text-align: left;
+      overflow: auto">$code</pre>
+</div>]]></template>
+		<template name="bbcode_html" templatetype="template" date="1189510516" username="Sean" version="3.6.8"><![CDATA[<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">$vbphrase[html_code]:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: $stylevar[cellpadding]px;
+		border: 1px inset;
+		width: 90%;
+		height: {$blockheight}px;
+		text-align: left;
+		overflow: auto">$code</pre>
+</div>]]></template>
+		<template name="bbcode_php" templatetype="template" date="1189510534" username="Sean" version="3.6.8"><![CDATA[<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">$vbphrase[php_code]:</div>
+	<div class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: $stylevar[cellpadding]px;
+		border: 1px inset;
+		width: 90%;
+		height: {$blockheight}px;
+		text-align: left;
+		overflow: auto">
+		<code style="white-space:nowrap">
+			<!-- php buffer start -->$code<!-- php buffer end -->
+		</code>
+	</div>
+</div>]]></template>
+		<template name="bbcode_quote" templatetype="template" date="1189510566" username="Sean" version="3.6.8"><![CDATA[<div style="margin:20px; margin-top:5px; <if condition="$show['iewidthfix']">width: 90%;</if>">
+   <div class="smallfont" style="margin-bottom:2px">$vbphrase[quote]:</div>
+   <table cellpadding="$stylevar[cellpadding]" cellspacing="0" border="0" width="100%">
+   <tr>
+      <td class="alt2" style="border:1px inset">
+         <if condition="$show['username']">
+            <div>
+               <phrase 1="$username">$vbphrase[originally_posted_by_x]</phrase>
+               <if condition="$postid"><a href="showthread.php?$session[sessionurl]p=$postid#post$postid" rel="nofollow"><img class="inlineimg" src="$stylevar[imgdir_button]/viewpost.gif" border="0" alt="$vbphrase[view_post]" /></a></if>
+            </div>
+            <div style="font-style:italic">$message</div>
+         <else />
+            $message
+         </if>
+      </td>
+   </tr>
+   </table>
+</div>]]></template>
+	</templategroup>
+	<templategroup name="Editor">
+		<template name="editor_styles_button_down" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #1A1A1A; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+		<template name="editor_styles_button_hover" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #1A1A1A; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+		<template name="editor_styles_button_normal" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #504F3D; color: #FFFFFF; padding: 1px; border: none;]]></template>
+		<template name="editor_styles_button_selected" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #504F3D; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+		<template name="editor_styles_menu_down" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #1A1A1A; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+		<template name="editor_styles_menu_hover" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #1A1A1A; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+		<template name="editor_styles_menu_normal" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #504F3D; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+		<template name="editor_styles_popup_down" templatetype="template" date="1130075695" username="Sean" version="3.5.0"><![CDATA[background: #1A1A1A; color: #FFFFFF; padding: 0px; border: 1px solid #000000;]]></template>
+	</templategroup>
+	<templategroup name="Forum Display">
+		<template name="FORUMDISPLAY" templatetype="template" date="1233628712" username="Sean" version="3.8.1"><![CDATA[$stylevar[htmldoctype]
+<html xmlns="http://www.w3.org/1999/xhtml" dir="$stylevar[textdirection]" lang="$stylevar[languagecode]">
+<head>
+$headinclude
+<title>$foruminfo[title_clean]<if condition="$pagenumber>1"> - <phrase 1="$pagenumber">$vbphrase[page_x]</phrase></if> - $vboptions[bbtitle]</title>
+<if condition="$show['inlinemod']"><script type="text/javascript" src="clientscript/vbulletin_inlinemod.js?v=$vboptions[simpleversion]"></script></if>
+</head>
+<body>
+$header
+$navbar
+
+<if condition="$show['forumslist']">
+<!-- sub-forum list  -->
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" width="100%">$vbphrase[subforums]<span class="normal"> : $foruminfo[title]</span></td>
+	<if condition="$show['forumsearch']">
+	<td class="vbmenu_control" id="forumsearch.subforums" nowrap="nowrap"><a href="search.php?$session[sessionurl]f=$foruminfo[forumid]" rel="nofollow">$vbphrase[search_this_forum]</a> <if condition="$show['quicksearch']"><script type="text/javascript"> vbmenu_register("forumsearch.subforums"); </script></if></td>
+	</if>
+</tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<thead>
+	<tr align="center">
+	  <td class="thead">&nbsp;</td>
+	  <td class="thead" width="100%" align="$stylevar[left]">$vbphrase[forum]</td>
+	  <td class="thead">$vbphrase[last_post]</td>
+	  <td class="thead">$vbphrase[threads]</td>
+	  <td class="thead">$vbphrase[posts]</td>
+	  <if condition="$vboptions[showmoderatorcolumn]">
+	  <td class="thead">$vbphrase[moderator]</td>
+	  </if>
+	</tr>
+</thead>
+$forumbits
+</table>
+<br />
+<!-- / sub-forum list  -->
+</if>
+
+<if condition="$show['threadslist']">
+<!-- threads list  -->
+
+<form action="inlinemod.php?forumid=$forumid" method="post" id="inlinemodform">
+<input type="hidden" name="url" value="$url" />
+<input type="hidden" name="s" value="$session[sessionhash]" />
+<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+<input type="hidden" name="forumid" value="$forumid" />
+
+<!-- controls above thread list -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px">
+<tr valign="bottom">
+	<td class="smallfont"><if condition="$show['newthreadlink']"><a href="newthread.php?$session[sessionurl]do=newthread&amp;f=$foruminfo[forumid]" rel="nofollow"><img src="$stylevar[imgdir_button]/newthread.gif" alt="$vbphrase[post_new_thread]" border="0" /></a><else />&nbsp;</if></td>
+	<if condition="$pagenav"><td align="$stylevar[right]">$pagenav</td></if>
+</tr>
+</table>
+<!-- / controls above thread list -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" width="100%">$vbphrase[threads_in_forum]<span class="normal"> : $foruminfo[title]</span></td>
+	<td class="vbmenu_control" id="forumtools" nowrap="nowrap"><a href="$show[nojs_link]#goto_forumtools" rel="nofollow">$vbphrase[forum_tools]</a> <script type="text/javascript"> vbmenu_register("forumtools"); </script></td>
+	<if condition="$show['forumsearch']">
+	<td class="vbmenu_control" id="forumsearch" nowrap="nowrap"><if condition="$show['quicksearch']"><a href="$show[nojs_link]#goto_forumsearch" rel="nofollow">$vbphrase[search_this_forum]</a> <script type="text/javascript"> vbmenu_register("forumsearch"); </script><else /><a href="search.php?$session[sessionurl]f=$foruminfo[forumid]" rel="nofollow">$vbphrase[search_this_forum]</a></if></td>
+	</if>
+</tr>
+</table>
+
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center" id="threadslist">
+<tbody>
+$announcebits
+<tr>
+<if condition="$show['search_engine']">
+	<if condition="$show['threadicons']">
+		<td class="thead" colspan="2">&nbsp;</td>
+	<else />
+		<td class="thead">&nbsp;</td>
+	</if>
+	<td class="thead" width="100%">
+		<if condition="$show['threadratings']"><span style="float:$stylevar[right]">$vbphrase[rating]</span></if>
+		$vbphrase[thread] / $vbphrase[thread_starter]
+	</td>
+	<td class="thead" width="150" align="center" nowrap="nowrap"><span style="white-space:nowrap">$vbphrase[last_post]</span></td>
+	<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap">$vbphrase[replies]</span></td>
+	<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap">$vbphrase[views]</span></td>
+<else />
+	<if condition="$show['threadicons']">
+		<td class="thead" colspan="2">&nbsp;</td>
+	<else />
+		<td class="thead">&nbsp;</td>
+	</if>
+	<td class="thead" width="100%">
+		<if condition="$show['threadratings']"><span style="float:$stylevar[right]"><a href="$sorturl&amp;order=desc&amp;sort=voteavg" rel="nofollow">$vbphrase[rating]</a> $sortarrow[voteavg]</span></if>
+		<a href="$sorturl&amp;order=asc&amp;sort=title" rel="nofollow">$vbphrase[thread]</a> $sortarrow[title] /
+		<a href="$sorturl&amp;order=asc&amp;sort=postusername" rel="nofollow">$vbphrase[thread_starter]</a> $sortarrow[postusername]
+	</td>
+	<td class="thead" width="150" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="$sorturl&amp;order=desc&amp;sort=lastpost" rel="nofollow">$vbphrase[last_post]</a> $sortarrow[lastpost]</span></td>
+	<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="$sorturl&amp;order=desc&amp;sort=replycount" rel="nofollow">$vbphrase[replies]</a> $sortarrow[replycount]</span></td>
+	<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="$sorturl&amp;order=desc&amp;sort=views" rel="nofollow">$vbphrase[views]</a> $sortarrow[views]</span></td>
+
+	<if condition="$show['inlinemod']">
+		<if condition="$show['popups']">
+			<td class="vbmenu_control" id="imod" align="center" title="$vbphrase[moderation]"> <script type="text/javascript"> vbmenu_register('imod'); </script> </td>
+		<else />
+			<td class="thead" align="center">
+				<input type="checkbox" name="allbox" id="checkall_all" title="$vbphrase[check_uncheck_all]" onclick="inlineMod.check_all()" />
+			</td>
+		</if>
+	</if>
+</if>
+</tr>
+</tbody>
+
+<if condition="$show['threads']">
+	<!-- show threads -->
+	<tbody id="threadbits_forum_$foruminfo[forumid]">
+	<if condition="$show['stickies']">
+	$threadbits_sticky
+	</if>
+	$threadbits
+	</tbody>
+	<!-- end show threads -->
+<else />
+	<!-- show no threads message -->
+	<tbody>
+	<tr>
+		<td class="alt1" colspan="$foruminfo[bottomcolspan]" align="center">
+			<div style="padding: 16px">
+				<if condition="$show['noposts']"><strong>$vbphrase[no_posts_in_this_forum]</strong><else /><strong><phrase 1="$daysprune">$vbphrase[no_posts_last_x_days_forum]</phrase></strong><br />
+				<span class="smallfont">$vbphrase[try_controls_below_for_older_posts]</span></if>
+			</div>
+		</td>
+	</tr>
+	</tbody>
+	<!-- end show no threads message -->
+</if>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+<!-- controls below thread list -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:3px">
+<tr valign="top">
+	<td class="smallfont"><if condition="$show['newthreadlink']"><a href="newthread.php?$session[sessionurl]do=newthread&amp;f=$foruminfo[forumid]" rel="nofollow"><img src="$stylevar[imgdir_button]/newthread.gif" alt="$vbphrase[post_new_thread]" border="0" /></a><else />&nbsp;</if></td>
+	<if condition="$show['pagenav'] OR $show['inlinemod']">
+		<td align="$stylevar[right]">$pagenav
+		<if condition="$show['inlinemod']">
+			<div class="smallfont" style="text-align:$stylevar[left]; white-space:nowrap; float:$stylevar[right]">
+			<if condition="$show['pagenav']"><br /></if><strong>$vbphrase[moderation]</strong><br />
+			<select name="do">
+				<if condition="$show['deletethread'] OR $show['spamctrls'] OR $show['openthread'] OR $show['approvethread'] OR $show['movethread'] OR $template_hook['inlinemod_thread_bottom']">
+				<optgroup label="$vbphrase[option]">
+					<if condition="$show['deletethread']">
+					<option value="deletethread">$vbphrase[delete_threads]</option>
+					<option value="undeletethread">$vbphrase[undelete_threads]</option>
+					</if>
+					<if condition="$show['spamctrls']">
+					<option value="spamthread">$vbphrase[delete_threads_as_spam]</option>
+					</if>
+					<if condition="$show['openthread']">
+					<option value="open">$vbphrase[open_threads]</option>
+					<option value="close">$vbphrase[close_threads]</option>
+					</if>
+					<if condition="$show['approvethread']">
+					<option value="approvethread">$vbphrase[approve_threads]</option>
+					<option value="unapprovethread">$vbphrase[unapprove_threads]</option>
+					</if>
+					<if condition="$show['movethread']">
+					<option value="stick">$vbphrase[stick_threads]</option>
+					<option value="unstick">$vbphrase[unstick_threads]</option>
+					<option value="movethread">$vbphrase[move_threads]</option>
+					<option value="mergethread">$vbphrase[merge_threads]</option>
+					</if>
+					$template_hook[inlinemod_thread_bottom]
+				</optgroup>
+				</if>
+				<optgroup label="____________________">
+					<option value="viewthread">$vbphrase[view_selected_threads]</option>
+					<option value="clearthread">$vbphrase[clear_thread_list]</option>
+				</optgroup>
+			</select><input type="submit" class="button" id="inlinego" value="$vbphrase[go]" />
+			</div>
+			<script type="text/javascript">
+			<!--
+			inlineMod = new vB_Inline_Mod('inlineMod', 'thread', 'inlinemodform', '$vbphrase[go_x]');
+			//-->
+			</script>
+		</if>
+		</td>
+	</if>
+</tr>
+</table>
+<!-- / controls below thread list -->
+
+</form>
+<br />
+
+$ad_location[ad_forumdisplay_afterthreads]
+
+<!-- Active Users in this Forum (and sub-forums) and Moderators -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<form action="forumdisplay.php" method="get">
+<input type="hidden" name="s" value="$session[sessionhash]" />
+<input type="hidden" name="f" value="$forumid" />
+<input type="hidden" name="page" value="$pagenumber" />
+<input type="hidden" name="pp" value="$perpage" />
+
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<tr>
+	<td class="tcat">$vbphrase[display_options]</td>
+	<if condition="$show['activeusers']">
+	<td class="tcat" nowrap="nowrap">$vbphrase[currently_active_users]</td>
+	</if>
+	<if condition="$show['moderators']">
+	<td class="tcat">$vbphrase[moderators]</td>
+	</if>
+</tr>
+<tr>
+	<td class="thead"><phrase 1="$limitlower" 2="$limitupper" 3="$totalthreads">$vbphrase[showing_threads_x_to_y_of_z]</phrase></td>
+	<if condition="$show['activeusers']">
+	<td class="thead">$totalonline (<phrase 1="$numberregistered" 2="$numberguest">$vbphrase[x_members_y_guests]</phrase>)</td>
+	</if>
+	<if condition="$show['moderators']">
+	<td class="thead">$vbphrase[moderators] : $totalmods</td>
+	</if>
+</tr>
+<tr valign="top">
+	<td class="alt1">
+
+		<table cellpadding="0" cellspacing="1" border="0">
+		<tr valign="bottom">
+			<td class="smallfont" style="padding-$stylevar[right]:$stylevar[cellpadding]px">
+				<div><label for="sel_sort">$vbphrase[sorted_by]</label></div>
+				<select name="sort" id="sel_sort">
+					<option value="title" $sort[title]>$vbphrase[thread_title]</option>
+					<option value="lastpost" $sort[lastpost]>$vbphrase[last_post_time]</option>
+					<option value="dateline" $sort[dateline]>$vbphrase[thread_start_time]</option>
+					<option value="replycount" $sort[replycount]>$vbphrase[number_of_replies]</option>
+					<option value="views" $sort[views]>$vbphrase[number_of_views]</option>
+					<option value="postusername" $sort[postusername]>$vbphrase[thread_starter]</option>
+					<if condition="$show['threadratings']"><option value="voteavg" $sort[voteavg]>$vbphrase[thread_rating]</option></if>
+				</select>
+			</td>
+			<td class="smallfont" style="padding-$stylevar[right]:$stylevar[cellpadding]px">
+				<div><label for="sel_order">$vbphrase[sort_order]</label></div>
+				<select name="order" id="sel_order">
+					<option value="asc" $order[asc]>$vbphrase[ascending]</option>
+					<option value="desc" $order[desc]>$vbphrase[descending]</option>
+				</select>
+			</td>
+			<td class="smallfont">
+				<div><label for="sel_daysprune">$vbphrase[from_the]</label></div>
+				<select name="daysprune" id="sel_daysprune">
+					<option value="1" $daysprunesel[1]>$vbphrase[last_day]</option>
+					<option value="2" $daysprunesel[2]>$vbphrase[last_2_days]</option>
+					<option value="7" $daysprunesel[7]>$vbphrase[last_week]</option>
+					<option value="10" $daysprunesel[10]>$vbphrase[last_10_days]</option>
+					<option value="14" $daysprunesel[14]>$vbphrase[last_2_weeks]</option>
+					<option value="30" $daysprunesel[30]>$vbphrase[last_month]</option>
+					<option value="45" $daysprunesel[45]>$vbphrase[last_45_days]</option>
+					<option value="60" $daysprunesel[60]>$vbphrase[last_2_months]</option>
+					<option value="75" $daysprunesel[75]>$vbphrase[last_75_days]</option>
+					<option value="100" $daysprunesel[100]>$vbphrase[last_100_days]</option>
+					<option value="365" $daysprunesel[365]>$vbphrase[last_year]</option>
+					<option value="-1" $daysprunesel[all]>$vbphrase[beginning]</option>
+				</select>
+			</td>
+		</tr>
+		<tr valign="bottom">
+			<td class="smallfont" colspan="2">
+			<if condition="$prefix_options">
+				<div><label for="sel_prefixid">$vbphrase[prefix]</label></div>
+				<select name="prefixid" id="sel_prefixid">
+					<option value=""$prefix_selected[any]>$vbphrase[any_prefix_meta]</option>
+					<option value="-1"$prefix_selected[none]>$vbphrase[no_prefix_meta]</option>
+					$prefix_options
+				</select>
+			<else />
+				&nbsp;
+			</if>
+			</td>
+			<td class="smallfont" align="$stylevar[right]" style="padding-top:$stylevar[cellpadding]px">
+				<input type="submit" class="button" value="$vbphrase[show_threads]" />
+			</td>
+		</tr>
+		</table>
+
+	</td>
+	<if condition="$show['activeusers']">
+	<td class="alt1"><div class="smallfont">$activeusers</div></td>
+	</if>
+	<if condition="$show['moderators']">
+	<td class="alt1"><div class="smallfont">$moderatorslist&nbsp;</div></td>
+	</if>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+</form>
+<!-- End Active Users in this Forum (and sub-forums) and Moderators -->
+
+<if condition="$show['popups']">
+<br />
+<!-- popup menu contents -->
+
+
+<!-- forum tools menu -->
+<div class="vbmenu_popup" id="forumtools_menu" style="display:none">
+<form action="moderator.php?f=$forumid" method="post" name="forumadminform">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr><td class="thead">$vbphrase[forum_tools]<a name="goto_forumtools"></a></td></tr>
+	<if condition="$show['newthreadlink']"><tr><td class="vbmenu_option"><a href="newthread.php?$session[sessionurl]do=newthread&amp;f=$foruminfo[forumid]" rel="nofollow">$vbphrase[post_a_new_thread]</a></td></tr></if>
+	<tr><td class="vbmenu_option"><a href="forumdisplay.php?$session[sessionurl]do=markread&amp;f=$foruminfo[forumid]" rel="nofollow" onclick="return mark_forum_read($foruminfo[forumid]);">$vbphrase[mark_this_forum_read]</a></td></tr>
+	<tr>
+		<td class="vbmenu_option">
+		<if condition="$show['subscribed_to_forum']">
+			<a href="subscription.php?$session[sessionurl]do=removesubscription&amp;f=$foruminfo[forumid]" rel="nofollow">$vbphrase[unsubscribe_from_this_forum]</a>
+		<else />
+			<a href="subscription.php?$session[sessionurl]do=addsubscription&amp;f=$foruminfo[forumid]" rel="nofollow">$vbphrase[subscribe_to_this_forum]</a>
+		</if>
+		</td>
+	</tr>
+	<tr><td class="vbmenu_option"><a href="forumdisplay.php?$session[sessionurl]f=$foruminfo[parentid]" rel="nofollow">$vbphrase[view_parent_forum]</a></td></tr>
+	<if condition="$show['adminoptions']">
+	<tr>
+		<td class="thead">$vbphrase[admin_tools]<a name="goto_forumadmin"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+		<if condition="$show['post_queue']"><div><label for="fa_mpo"><input type="radio" name="do" id="fa_mpo" value="modposts" checked="checked" />$vbphrase[view_posts_queue]</label></div></if>
+		<if condition="$show['attachment_queue']"><div><label for="fa_mat"><input type="radio" name="do" id="fa_mat" value="modattach" />$vbphrase[view_attachment_queue]</label></div></if>
+		<if condition="$show['mass_move']"><div><label for="fa_mov"><input type="radio" name="do" id="fa_mov" value="move" />$vbphrase[massmove_threads]</label></div></if>
+		<if condition="$show['mass_prune']"><div><label for="fa_prn"><input type="radio" name="do" id="fa_prn" value="prune" />$vbphrase[massprune_threads]</label></div></if>
+		<if condition="$show['addmoderator']">
+		<div><label for="fa_amd"><input type="radio" name="do" id="fa_amd" value="addmoderator" />$vbphrase[add_moderator]</label></div>
+		</if>
+		<if condition="$show['post_new_announcement']">
+		<div><label for="fa_pan"><input type="radio" name="do" id="fa_pan" value="postannouncement" />$vbphrase[post_new_announcement]</label></div>
+		</if>
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite" align="center">
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+			<input type="hidden" name="f" value="$forumid" />
+			<input type="submit" class="button" value="$vbphrase[perform_action]" />
+		</td>
+	</tr>
+	</if>
+	</table>
+</form>
+</div>
+<!-- / forum tools menu -->
+
+<!-- inline mod menu -->
+<if condition="$show['inlinemod']">
+	<div class="vbmenu_popup" id="imod_menu" style="display:none" align="$stylevar[left]">
+		$threadadmin_imod_menu_thread
+	</div>
+</if>
+<!-- / inline mod menu -->
+
+<!-- / popup menu contents -->
+<else />
+<!-- controls for non-popup browsers -->
+
+
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center" style="border-top-width:0px">
+<tr>
+	<td class="thead">$vbphrase[forum_tools]<a name="goto_forumtools"></a></td>
+	<td class="thead">$vbphrase[search_this_forum]<a name="goto_forumsearch"></a></td>
+</tr>
+<tr valign="top">
+	<!-- forum tools -->
+	<td class="alt1">
+		<div class="smallfont">
+			<div><img class="inlineimg" src="$stylevar[imgdir_button]/subscribe.gif" alt="$vbphrase[mark_this_forum_read]" vspace="1" /> <a href="forumdisplay.php?$session[sessionurl]do=markread&amp;f=$foruminfo[forumid]" rel="nofollow">$vbphrase[mark_this_forum_read]</a></div>
+			<if condition="$show['member']"><div><img class="inlineimg" src="$stylevar[imgdir_button]/subscribe.gif" alt="$vbphrase[subscription]" vspace="1" />
+				<if condition="$show['subscribed_to_forum']">
+					<a href="subscription.php?$session[sessionurl]do=removesubscription&amp;f=$foruminfo[forumid]" rel="nofollow">$vbphrase[unsubscribe_from_this_forum]</a>
+				<else />
+					<a href="subscription.php?$session[sessionurl]do=addsubscription&amp;f=$foruminfo[forumid]" rel="nofollow">$vbphrase[subscribe_to_this_forum]</a>
+				</if>
+			</div></if>
+			<div><img class="inlineimg" src="$stylevar[imgdir_button]/subscribe.gif" alt="$vbphrase[view_parent_forum]" vspace="1" /> <a href="forumdisplay.php?$session[sessionurl]f=$foruminfo[parentid]" rel="nofollow">$vbphrase[view_parent_forum]</a></div>
+		</div>
+	</td>
+	<!-- / forum tools -->
+
+	<!-- search this forum -->
+	<td class="alt1">
+	<form action="search.php?do=process" method="post">
+	<div class="smallfont">
+		<input type="hidden" name="s" value="$session[sessionhash]" />
+		<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+		<input type="hidden" name="do" value="process" />
+		<input type="hidden" name="forumchoice[]" value="$forumid" />
+		<input type="hidden" name="childforums" value="1" />
+		<input type="hidden" name="exactname" value="1" />
+		<strong>$vbphrase[search_this_forum]</strong> :<br />
+		<input type="text" class="bginput" name="query" size="20" style="width:175px" />$gobutton<br />
+		<a href="search.php?$session[sessionurl]f=$forumid" rel="nofollow">$vbphrase[advanced_search]</a>
+	</div>
+	</form>
+	</td>
+	<!-- / search this forum -->
+</tr>
+</table>
+<br />
+
+
+<!-- / controls for non-popup browsers -->
+</if>
+
+<if condition="$show['ajax_js']">
+	<script type="text/javascript" src="clientscript/vbulletin_ajax_threadslist.js?v=$vboptions[simpleversion]"></script>
+	<script type="text/javascript">
+	<!--
+	vB_AJAX_Threadlist_Init('threadslist');
+	var titlemaxchars = parseInt("$vboptions[titlemaxchars]");
+	//-->
+	</script>
+</if>
+
+<!-- ############## END THREADS LIST ##############  -->
+</if>
+
+$forumhome_markread_script
+
+<if condition="$show['popups'] AND $show['forumsearch']">
+<!-- forum search menu -->
+<div class="vbmenu_popup" id="forumsearch_menu" style="display:none">
+<form action="search.php?do=process" method="post">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">$vbphrase[search_this_forum]<a name="goto_forumsearch"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+			<input type="hidden" name="do" value="process" />
+			<input type="hidden" name="forumchoice[]" value="$forumid" />
+			<input type="hidden" name="childforums" value="1" />
+			<input type="hidden" name="exactname" value="1" />
+			<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="$vbphrase[go]" accesskey="s" tabindex="1004" /></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+			<label for="rb_fd_sp0"><input type="radio" name="showposts" value="0" id="rb_fd_sp0" tabindex="1002" checked="checked" />$vbphrase[show_threads]</label>
+			&nbsp;
+			<label for="rb_fd_sp1"><input type="radio" name="showposts" value="1" id="rb_fd_sp1" tabindex="1003" />$vbphrase[show_posts]</label>
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="search.php?$session[sessionurl]f=$forumid" rel="nofollow">$vbphrase[advanced_search]</a></td>
+	</tr>
+	</table>
+</form>
+</div>
+<!-- / forum search menu -->
+</if>
+
+<!-- icon key -->
+<if condition="$show['threadslist']">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+	<td><img src="$stylevar[imgdir_statusicon]/thread_new.gif" alt="$vbphrase[new_posts]" border="0" /></td>
+	<td class="smallfont">$vbphrase[new_posts]</td>
+	<if condition="$vboptions['usehotthreads']">
+		<td><img src="$stylevar[imgdir_statusicon]/thread_hot_new.gif" alt="<phrase 1="$vboptions[hotnumberposts]" 2="$vboptions[hotnumberviews]">$vbphrase[more_than_x_replies_or_y_views]</phrase>" border="0" /></td>
+		<td class="smallfont">$vbphrase[hot_thread_with_new_posts]</td>
+	<else />
+		<td colspan="2">&nbsp;</td>
+	</if>
+</tr>
+<tr>
+	<td><img src="$stylevar[imgdir_statusicon]/thread.gif" alt="$vbphrase[no_new_posts]" border="0" /></td>
+	<td class="smallfont">$vbphrase[no_new_posts]</td>
+	<if condition="$vboptions['usehotthreads']">
+		<td><img src="$stylevar[imgdir_statusicon]/thread_hot.gif" alt="<phrase 1="$vboptions[hotnumberposts]" 2="$vboptions[hotnumberviews]">$vbphrase[more_than_x_replies_or_y_views]</phrase>" border="0" /></td>
+		<td class="smallfont">$vbphrase[hot_thread_with_no_new_posts]</td>
+	<else />
+		<td colspan="2">&nbsp;</td>
+	</if>
+</tr>
+<tr>
+	<td><img src="$stylevar[imgdir_statusicon]/thread_lock.gif" alt="$vbphrase[closed_thread]" border="0" /></td>
+	<td class="smallfont">$vbphrase[thread_is_closed]</td>
+	<if condition="$show['dotthreads']">
+		<td><img src="$stylevar[imgdir_statusicon]/thread_dot.gif" alt="$vbphrase[thread_contains_a_message_written_by_you]" border="0" /></td>
+		<td class="smallfont">$vbphrase[you_have_posted_in_this_thread]</td>
+	<else />
+		<td colspan="2">&nbsp;</td>
+	</if>
+</tr>
+</table>
+<else />
+<table cellpadding="0" cellspacing="2" border="0" width="100%">
+<tr valign="bottom">
+	<td>
+		<table cellpadding="2" cellspacing="0" border="0">
+		<tr>
+			<td><img src="$stylevar[imgdir_statusicon]/forum_new.gif" alt="$vbphrase[contains_new_posts]" border="0" /></td>
+			<td class="smallfont">&nbsp; $vbphrase[forum_contains_new_posts]</td>
+		</tr>
+		<tr>
+			<td><img src="$stylevar[imgdir_statusicon]/forum_old.gif" alt="$vbphrase[contains_no_new_posts]" border="0" /></td>
+			<td class="smallfont">&nbsp; $vbphrase[forum_contains_no_new_posts]</td>
+		</tr>
+		<if condition="$vboptions['showlocks']">
+		<tr>
+			<td><img src="$stylevar[imgdir_statusicon]/forum_old_lock.gif" alt="$vbphrase[a_closed_forum]" border="0" /></td>
+			<td class="smallfont">&nbsp; $vbphrase[forum_is_closed_for_posting]</td>
+		</tr>
+		</if>
+		</table>
+	</td>
+</tr>
+</table>
+</if>
+<!-- / icon key -->
+
+<!-- forum rules & forum jump -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="bottom">
+	<td width="100%">
+		<div class="smallfont">&nbsp;</div>
+		<if condition="$show['threadslist']">$forumrules</if>
+	</td>
+	<td>
+		$forumjump
+		<if condition="!$show['popups'] AND $show['adminoptions']">
+			<br />
+			<form action="moderator.php" method="get">
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="f" value="$forumid" />
+			<div class="smallfont"><strong>$vbphrase[admin_tools]</strong> :</div>
+			<select name="do" onchange="this.form.submit();">
+				<optgroup label="$vbphrase[admin_tools]">
+					<option value="modposts" selected="selected">$vbphrase[view_posts_queue]</option>
+					<option value="modattach">$vbphrase[view_attachment_queue]</option>
+					<option value="move">$vbphrase[mass_move]</option>
+					<option value="prune">$vbphrase[mass_prune]</option>
+					<if condition="$show['addmoderator']">
+						<option value="addmoderator">$vbphrase[add_moderator]</option>
+					</if>
+					<if condition="$show['post_new_announcement']">
+						<option value="postannouncement">$vbphrase[post_new_announcement]</option>
+					</if>
+				</optgroup>
+			</select>$gobutton
+			</form>
+		</if>
+	</td>
+</tr>
+</table>
+<!-- / forum rules & forum jump -->
+
+$footer
+</body>
+</html>]]></template>
+	</templategroup>
+	<templategroup name="Forum Home">
+		<template name="FORUMHOME" templatetype="template" date="1233628768" username="Sean" version="3.8.1"><![CDATA[$stylevar[htmldoctype]
+<html xmlns="http://www.w3.org/1999/xhtml" dir="$stylevar[textdirection]" lang="$stylevar[languagecode]">
+<head>
+	<!-- no cache headers -->
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="-1" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<!-- end no cache headers -->
+	$headinclude
+	<title><phrase 1="$vboptions[bbtitle]">$vbphrase[x_powered_by_vbulletin]</phrase></title>
+</head>
+<body>
+$header
+$navbar
+
+<if condition="$show['guest']">
+<!-- guest welcome message -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<tr>
+	<td class="tcat"><phrase 1="$vboptions[bbtitle]">$vbphrase[welcome_to_the_x]</phrase></td>
+</tr>
+<tr>
+	<td class="alt1">
+		<phrase 1="faq.php$session[sessionurl_q]" 2="register.php$session[sessionurl_q]">$vbphrase[first_visit_message]</phrase>
+	</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+<!-- / guest welcome message -->
+<br />
+</if>
+
+<!-- main -->
+$forumbits
+$forumhome_markread_script
+<!-- /main -->
+
+$ad_location[ad_forumhome_afterforums]
+<br />
+
+<!-- what's going on box -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<thead>
+	<tr>
+		<td class="tcat" colspan="2">$vbphrase[whats_going_on]</td>
+	</tr>
+</thead>
+$template_hook[forumhome_wgo_pos1]
+<if condition="$show['loggedinusers']">
+<!-- logged-in users -->
+<tbody>
+	<tr>
+		<td class="thead" colspan="2">
+			<a style="float:$stylevar[right]" href="#top" onclick="return toggle_collapse('forumhome_activeusers')"><img id="collapseimg_forumhome_activeusers" src="$stylevar[imgdir_button]/collapse_thead$vbcollapse[collapseimg_forumhome_activeusers].gif" alt="" border="0" /></a>
+			<a href="online.php$session[sessionurl_q]">$vbphrase[currently_active_users]</a>: $totalonline (<phrase 1="$numberregistered" 2="$numberguest">$vbphrase[x_members_and_y_guests]</phrase>)
+		</td>
+	</tr>
+</tbody>
+<tbody id="collapseobj_forumhome_activeusers" style="$vbcollapse[collapseobj_forumhome_activeusers]">
+	<tr>
+		<td class="alt2"><a href="online.php$session[sessionurl_q]"><img src="$stylevar[imgdir_misc]/whos_online.gif" alt="$vbphrase[view_whos_online]" border="0" /></a></td>
+		<td class="alt1" width="100%">
+			<div class="smallfont">
+				<div style="white-space: nowrap"><phrase 1="$recordusers" 2="$recorddate" 3="$recordtime">$vbphrase[most_users_ever_online_was_x_y_at_z]</phrase></div>
+				<div>$activeusers</div>
+			</div>
+		</td>
+	</tr>
+</tbody>
+<!-- end logged-in users -->
+</if>
+$template_hook[forumhome_wgo_pos2]
+<tbody>
+	<tr>
+		<td class="thead" colspan="2">
+			<a style="float:$stylevar[right]" href="#top" onclick="return toggle_collapse('forumhome_stats')"><img id="collapseimg_forumhome_stats" src="$stylevar[imgdir_button]/collapse_thead$vbcollapse[collapseimg_forumhome_stats].gif" alt="" border="0" /></a>
+			<phrase 1="$vboptions[bbtitle]">$vbphrase[x_statistics]</phrase>
+		</td>
+
+	</tr>
+</tbody>
+<tbody id="collapseobj_forumhome_stats" style="$vbcollapse[collapseobj_forumhome_stats]">
+	<tr>
+		<td class="alt2"><img src="$stylevar[imgdir_misc]/stats.gif" alt="<phrase 1="$vboptions[bbtitle]">$vbphrase[x_statistics]</phrase>" border="0" /></td>
+		<td class="alt1" width="100%">
+		<div class="smallfont">
+			<div>
+				$vbphrase[threads]: $totalthreads,
+				$vbphrase[posts]: $totalposts,
+				$vbphrase[members]: $numbermembers<if condition="$show['activemembers']">,
+					<span title="<phrase 1="$vboptions[activememberdays]">$vbphrase[within_the_last_x_days]</phrase>">$vbphrase[active_members]: $activemembers</span>
+				</if>
+			</div>
+			<div><phrase 1="member.php?$session[sessionurl]u=$newuserid" 2="$newusername">$vbphrase[welcome_to_our_newest_member_x]</phrase></div>
+			$template_hook[forumhome_wgo_stats]
+		</div>
+		</td>
+	</tr>
+</tbody>
+$template_hook[forumhome_wgo_pos3]
+<if condition="$show['birthdays']">
+<!-- today's birthdays -->
+<tbody>
+	<tr>
+		<td class="thead" colspan="2">
+			<a style="float:$stylevar[right]" href="#top" onclick="return toggle_collapse('forumhome_birthdays')"><img id="collapseimg_forumhome_birthdays" src="$stylevar[imgdir_button]/collapse_thead$vbcollapse[collapseimg_forumhome_birthdays].gif" alt="" border="0" /></a>
+			$vbphrase[todays_birthdays]
+		</td>
+	</tr>
+</tbody>
+<tbody id="collapseobj_forumhome_birthdays" style="$vbcollapse[collapseobj_forumhome_birthdays]">
+	<tr>
+		<td class="alt2"><a href="calendar.php?$session[sessionurl]do=getday&amp;day=$today&amp;sb=1"><img src="$stylevar[imgdir_misc]/birthday.gif" alt="$vbphrase[view_birthdays]" border="0" /></a></td>
+		<td class="alt1" width="100%"><div class="smallfont">$birthdays</div></td>
+	</tr>
+</tbody>
+<!-- end today's birthdays -->
+</if>
+$template_hook[forumhome_wgo_pos4]
+<if condition="$show['upcomingevents']">
+<tbody>
+	<tr>
+		<td class="thead" colspan="2">
+			<a style="float:$stylevar[right]" href="#top" onclick="return toggle_collapse('forumhome_events')"><img id="collapseimg_forumhome_events" src="$stylevar[imgdir_button]/collapse_thead$vbcollapse[collapseimg_forumhome_events].gif" alt="" border="0" /></a>
+			<if condition="$show['todaysevents']">$vbphrase[todays_events]<else /><phrase 1="$vboptions[showevents]">$vbphrase[upcoming_events_for_the_next_x_days]</phrase></if>
+		</td>
+	</tr>
+</tbody>
+<tbody id="collapseobj_forumhome_events" style="$vbcollapse[collapseobj_forumhome_events]">
+	<tr>
+		<td class="alt2"><a href="calendar.php$session[sessionurl_q]"><img src="$stylevar[imgdir_misc]/calendar.gif" alt="$vbphrase[calendar]" border="0" /></a></td>
+		<td class="alt1" width="100%"><div class="smallfont">$upcomingevents</div></td>
+	</tr>
+</tbody>
+</if>
+$template_hook[forumhome_wgo_pos5]
+<tbody>
+   <tr>
+      <td class="tfoot" align="center" colspan="<if condition="$vboptions['showmoderatorcolumn']">6<else />5</if>"><div class="smallfont"><strong>
+         <a href="forumdisplay.php?$session[sessionurl]do=markread" rel="nofollow">$vbphrase[mark_forums_read]</a>
+         <if condition="$vboptions['forumleaders']">&nbsp; &nbsp;
+         <a href="showgroups.php$session[sessionurl_q]" rel="nofollow">$vbphrase[view_forum_leaders]</a></if>
+      </strong></div></td>
+   </tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+<br />
+<!-- end what's going on box -->
+
+<!-- icons and login code -->
+<table cellpadding="0" cellspacing="2" border="0" width="100%">
+<tr valign="bottom">
+	<td>
+		<table cellpadding="2" cellspacing="0" border="0">
+		<tr>
+			<td><img src="$stylevar[imgdir_statusicon]/forum_new.gif" alt="$vbphrase[contains_new_posts]" border="0" /></td>
+			<td class="smallfont">&nbsp; $vbphrase[forum_contains_new_posts]</td>
+		</tr>
+		<tr>
+			<td><img src="$stylevar[imgdir_statusicon]/forum_old.gif" alt="$vbphrase[contains_no_new_posts]" border="0" /></td>
+			<td class="smallfont">&nbsp; $vbphrase[forum_contains_no_new_posts]</td>
+		</tr>
+		<if condition="$vboptions['showlocks']">
+		<tr>
+			<td><img src="$stylevar[imgdir_statusicon]/forum_old_lock.gif" alt="$vbphrase[a_closed_forum]" border="0" /></td>
+			<td class="smallfont">&nbsp; $vbphrase[forum_is_closed_for_posting]</td>
+		</tr>
+		</if>
+		</table>
+	</td>
+	<if condition="!$show['guest']">
+		<!-- member logout -->
+		<td align="$stylevar[right]"><a href="login.php?$session[sessionurl]do=logout&amp;logouthash=$bbuserinfo[logouthash]"  onclick="return log_out('$vbphrase[sure_you_want_to_log_out]')"><phrase 1="$bbuserinfo[username]">$vbphrase[log_out_x]</phrase></a></td>
+		<!-- end member logout -->
+	</if>
+</tr>
+</table>
+<!-- / icons and login code -->
+
+$footer
+</body>
+</html>]]></template>
+		<template name="forumhome_forumbit_level1_nopost" templatetype="template" date="1236847078" username="Sean" version="3.8.1"><![CDATA[<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<tbody>
+   <tr>
+      <td class="tcat" colspan="<if condition="$vboptions[showmoderatorcolumn]">6<else />5</if>">
+         <if condition="$childforumbits">
+         <a style="float:$stylevar[right]" href="#top" onclick="return toggle_collapse('forumbit_$forumid')"><img id="collapseimg_forumbit_$forumid" src="$stylevar[imgdir_button]/collapse_tcat{$collapseimg_forumid}.gif" alt="" border="0" /></a>
+         </if>
+         <a href="forumdisplay.php?$session[sessionurl]f=$forum[forumid]">$forum[title]</a>
+         <if condition="$show['forumdescription']"><div class="smallfont">$forum[description]</div></if>
+         <if condition="$show['subforums']"><div class="smallfont"><strong>$vbphrase[subforums]</strong>: $forum[subforums]</div></if>
+      </td>
+   </tr>
+</tbody>
+<if condition="$childforumbits">
+<tbody id="collapseobj_forumbit_$forumid" style="{$collapseobj_forumid}">
+    <tr align="center">
+      <td class="thead" width="5%">&nbsp;</td>
+      <td class="thead" width="55%" align="$stylevar[left]">$vbphrase[forum]</td>
+      <td class="thead" width="20%">$vbphrase[last_post]</td>
+      <td class="thead" width="5%">$vbphrase[threads]</td>
+      <td class="thead" width="5%">$vbphrase[posts]</td>
+      <if condition="$vboptions['showmoderatorcolumn']">
+      <td class="thead" width="10%">$vbphrase[moderator]</td>
+      </if>
+    </tr>
+$childforumbits
+<tr><td class="thead" style="line-height: 0; padding: 0; margin: 0;" colspan="<if condition="$vboptions[showmoderatorcolumn]">6<else />5</if>"><img src="$vboptions[cleargifurl]" alt="" width="1" height="12" /></td></tr>
+</tbody>
+</if>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+<div style="padding: 0 0 16px 0;"></div>]]></template>
+		<template name="forumhome_forumbit_level2_post" templatetype="template" date="1214374856" username="Sean" version="3.7.2"><![CDATA[<tr align="center">
+   <td class="alt2"><img src="$stylevar[imgdir_statusicon]/$forum[imageprefix]forum_$forum[statusicon].gif" alt="" border="0" id="forum_statusicon_$forum[forumid]" /></td>
+   <td class="alt1Active" align="$stylevar[left]" id="f$forum[forumid]">
+      <div>
+         <a href="forumdisplay.php?$session[sessionurl]f=$forum[forumid]"><strong>$forum[title]</strong></a>
+         <if condition="$show['browsers']"><span class="smallfont">(<phrase 1="$forum[browsers]">$vbphrase[x_viewing]</phrase>)</span></if>
+      </div>
+      <if condition="$show['forumdescription']"><div class="smallfont">$forum[description]</div></if>
+      <if condition="$show['forumsubscription']"><div class="smallfont"><strong><a href="subscription.php?$session[sessionurl]do=removesubscription&amp;f=$forum[forumid]" rel="nofollow">$vbphrase[unsubscribe_from_this_forum]</a></strong></div></if>
+      <if condition="$show['subforums']"><div class="smallfont" style="margin-top:$stylevar[cellpadding]px"><strong>$vbphrase[subforums]</strong>: $forum[subforums]</div></if>
+   </td>
+   <td class="alt2" nowrap="nowrap" width="175">$forum[lastpostinfo]</td>
+   <td class="alt1" width="65">$forum[threadcount]</td>
+   <td class="alt2" width="65">$forum[replycount]</td>
+   <if condition="$vboptions['showmoderatorcolumn']">
+   <td class="alt1" width="120"><div class="smallfont">$forum[moderators]&nbsp;</div></td>
+   </if>
+</tr>
+$childforumbits]]></template>
+	</templategroup>
+	<templategroup name="Navigation / Breadcrumb">
+		<template name="navbar" templatetype="template" date="1233629101" username="Sean" version="3.8.1"><![CDATA[<br />
+
+<!-- breadcrumb, login, pm info -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<tr>
+	<td class="alt1" width="100%">
+		<if condition="is_array($navbits)">
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr valign="bottom">
+				<td><a href="#" onclick="history.back(1); return false;"><img src="$stylevar[imgdir_misc]/navbits_start.gif" alt="$vbphrase[go_back]" border="0" /></a></td>
+				<td>&nbsp;</td>
+				<td width="100%"><span class="navbar"><a href="$vboptions[forumhome].php$session[sessionurl_q]" accesskey="1">$vboptions[bbtitle]</a></span> $navbits[breadcrumb]</td>
+			</tr>
+			<tr>
+				<td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><if condition="$_SERVER['REQUEST_METHOD'] == 'POST'"><img class="inlineimg" src="$stylevar[imgdir_misc]/navbits_finallink_$stylevar[textdirection].gif" alt="" border="0" /><else /><a href="$navbar_reloadurl"><img class="inlineimg" src="$stylevar[imgdir_misc]/navbits_finallink_$stylevar[textdirection].gif" alt="$vbphrase[reload_this_page]" border="0" /></a></if> <strong>$navbits[lastelement]</strong></td>
+			</tr>
+			</table>
+		<else />
+			<div class="navbar" style="font-size:10pt"><a href="$vboptions[forumhome].php$session[sessionurl_q]" accesskey="1"><img class="inlineimg" src="$stylevar[imgdir_misc]/navbits_start.gif" alt="" border="0" /></a> <strong>$vboptions[bbtitle]</strong></div>
+		</if>
+	</td>
+<if condition="$show['member']">
+	<td class="alt2" nowrap="nowrap">
+	<div class="smallfont">
+		<strong><phrase 1="$bbuserinfo[username]" 2="member.php?$session[sessionurl]u=$bbuserinfo[userid]">$vbphrase[welcome_x_link_y]</phrase></strong><br />
+		<phrase 1="$pmbox[lastvisitdate]" 2="$pmbox[lastvisittime]">$vbphrase[last_visited_x_at_y]</phrase>
+
+		<if condition="$show['notifications']">
+			<div><span id="notifications"><a href="usercp.php$session[sessionurl_q]">$vbphrase[your_notifications]:</a> <strong>$notifications_total</strong></span></div>
+			<if condition="$show['popups']">
+				<script type="text/javascript"> vBmenu.register("notifications"); </script>
+			<else />
+				<script type="text/javascript" src="clientscript/vbulletin_notifications_nopopups.js?v=$vboptions[simpleversion]"></script>
+				<script type="text/javascript"> vBulletin.register_control("vB_Notifications_NoPopups", "notifications");  </script>
+			</if>
+		<else /><if condition="$show['pmstats']">
+			<div><phrase 1="$vbphrase[unread_x_nav_compiled]" 2="$vbphrase[total_x_nav_compiled]" 3="$session[sessionurl_q]">$vbphrase[private_messages_nav]</phrase></div>
+		</if></if>
+
+		<if condition="$show['pmwarning']"><div><strong><phrase 1="$vbphrase[pmpercent_nav_compiled]">$vbphrase[your_pm_box_is_x_full]</phrase></strong></div></if>
+	</div>
+	</td>
+<else />
+	<td class="alt2" nowrap="nowrap" style="padding:0px">
+		<!-- login form -->
+		<form action="login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, $show[nopasswordempty])">
+		<script type="text/javascript" src="clientscript/vbulletin_md5.js?v=$vboptions[simpleversion]"></script>
+		<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+		<tr>
+			<td class="smallfont" style="white-space: nowrap;"><label for="navbar_username">$vbphrase[username]</label></td>
+			<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="$vbphrase[username]" onfocus="if (this.value == '$vbphrase[username]') this.value = '';" /></td>
+			<td class="smallfont" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />$vbphrase[remember_me]</label></td>
+		</tr>
+		<tr>
+			<td class="smallfont"><label for="navbar_password">$vbphrase[password]</label></td>
+			<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+			<td><input type="submit" class="button" value="$vbphrase[log_in]" tabindex="104" title="$vbphrase[enter_username_to_login_or_register]" accesskey="s" /></td>
+		</tr>
+		</table>
+		<input type="hidden" name="s" value="$session[sessionhash]" />
+		<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+		<input type="hidden" name="do" value="login" />
+		<input type="hidden" name="vb_login_md5password" />
+		<input type="hidden" name="vb_login_md5password_utf" />
+		</form>
+		<!-- / login form -->
+	</td>
+</if>
+</tr>
+</table>
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+<div class="tborder" style="padding:$stylevar[cellspacing]px; border-top-width:0px">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr align="center">
+		<if condition="$show['member']">
+			<td class="vbmenu_control"><a href="usercp.php$session[sessionurl_q]">$vbphrase[user_cp]</a></td>
+		</if>
+		<if condition="$show['registerbutton']">
+			<td class="vbmenu_control"><a href="register.php$session[sessionurl_q]" rel="nofollow">$vbphrase[register]</a></td>
+		</if>
+		$template_hook[navbar_buttons_left]
+		<td class="vbmenu_control"><a rel="help" href="faq.php$session[sessionurl_q]" accesskey="5">$vbphrase[faq]</a></td>
+		<if condition="$show['communitylink'] AND $show['popups']">
+			<td class="vbmenu_control"><a id="community" href="$show[nojs_link]#community" rel="nofollow" accesskey="6">$vbphrase[community]</a> <script type="text/javascript"> vbmenu_register("community"); </script></td>
+		<else />
+			<if condition="$show['memberslist']">
+				<td class="vbmenu_control"><a href="memberlist.php$session[sessionurl_q]">$vbphrase[members_list]</a></td>
+			</if>
+			<if condition="$show['quick_links_groups']">
+				<td class="vbmenu_control"><a href="group.php?$session[sessionurl]">$vbphrase[social_groups]</a></td>
+			</if>
+		</if>
+		<td class="vbmenu_control"><a href="calendar.php$session[sessionurl_q]">$vbphrase[calendar]</a></td>
+		<if condition="$show['popups']">
+			<if condition="$show['searchbuttons']">
+				<if condition="$show['member']">
+				<td class="vbmenu_control"><a href="search.php?$session[sessionurl]do=getnew" accesskey="2">$vbphrase[new_posts_nav]</a></td>
+				<else />
+				<td class="vbmenu_control"><a href="search.php?$session[sessionurl]do=getdaily" accesskey="2">$vbphrase[todays_posts]</a></td>
+				</if>
+				<td class="vbmenu_control"><a id="navbar_search" href="search.php$session[sessionurl_q]" accesskey="4" rel="nofollow">$vbphrase[search]</a> <if condition="$show['quicksearch']"><script type="text/javascript"> vbmenu_register("navbar_search"); </script></if></td>
+			</if>
+			<if condition="$show['member']">
+				<td class="vbmenu_control"><a id="usercptools" href="$show[nojs_link]#usercptools" accesskey="3">$vbphrase[quick_links]</a> <script type="text/javascript"> vbmenu_register("usercptools"); </script></td>
+			</if>
+		<else />
+			<if condition="$show['searchbuttons']">
+				<td class="vbmenu_control"><a href="search.php$session[sessionurl_q]" accesskey="4">$vbphrase[search]</a></td>
+				<if condition="$show['member']">
+				<td class="vbmenu_control"><a href="search.php?$session[sessionurl]do=getnew" accesskey="2">$vbphrase[new_posts_nav]</a></td>
+				<else />
+				<td class="vbmenu_control"><a href="search.php?$session[sessionurl]do=getdaily" accesskey="2">$vbphrase[todays_posts]</a></td>
+				</if>
+			</if>
+			<td class="vbmenu_control"><a href="forumdisplay.php?$session[sessionurl]do=markread" rel="nofollow">$vbphrase[mark_forums_read]</a></td>
+			<if condition="$show['member']">
+				<td class="vbmenu_control"><a href="#" onclick="window.open('misc.php?$session[sessionurl]do=buddylist&amp;focus=1','buddylist','statusbar=no,menubar=no,toolbar=no,scrollbars=yes,resizable=yes,width=250,height=300'); return false;">$vbphrase[open_contacts]</a></td>
+			</if>
+		</if>
+		$template_hook[navbar_buttons_right]
+		<if condition="$show['member']">
+			<td class="vbmenu_control"><a href="login.php?$session[sessionurl]do=logout&amp;logouthash=$bbuserinfo[logouthash]" onclick="return log_out('$vbphrase[sure_you_want_to_log_out]')">$vbphrase[log_out]</a></td>
+		</if>
+		</tr>
+	</table>
+</div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+<!-- / nav buttons bar -->
+
+<br />
+
+<if condition="$show['notices']">
+<form action="profile.php?do=dismissnotice" method="post" id="notices">
+<input type="hidden" name="do" value="dismissnotice" />
+<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+<input type="hidden" id="dismiss_notice_hidden" name="dismiss_noticeid" value="" />
+<input type="hidden" name="url" value="$return_link" />
+	<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+	<tr>
+		<td class="thead">$vbphrase[notices]</td>
+	</tr>
+	<tr>
+		<td class="alt1">
+			$notices
+		</td>
+	</tr>
+	</table>
+	<br />
+</form>
+</if>
+
+<if condition="$show['forumdesc']">
+	<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+	<tr>
+		<td class="alt1" width="100%"><strong>$foruminfo[title]</strong> <span class="smallfont">$foruminfo[description]</span></td>
+	</tr>
+	</table>
+	<br />
+</if>
+
+<if condition="$show['popups']">
+<!-- NAVBAR POPUP MENUS -->
+
+	<if condition="$show['communitylink']">
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="community_menu" style="display:none;margin-top:3px" align="$stylevar[left]">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr><td class="thead">$vbphrase[community_links]</td></tr>
+		$template_hook[navbar_community_menu_start]
+		<if condition="$show['quick_links_groups']">
+					<tr><td class="vbmenu_option"><a href="group.php$session[sessionurl_q]">$vbphrase[social_groups]</a></td></tr>
+		</if>
+		<if condition="$show['quick_links_albums']">
+					<tr><td class="vbmenu_option"><a href="album.php$session[sessionurl_q]">$vbphrase[pictures_and_albums]</a></td></tr>
+		</if>
+		<if condition="$bbuserinfo['userid']">
+			<tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=buddylist"><if condition="$show['friends_and_contacts']">$vbphrase[contacts_and_friends]<else />$vbphrase[contacts]</if></a></td></tr>
+		</if>
+		<if condition="$show['memberslist']">
+			<tr><td class="vbmenu_option"><a href="memberlist.php$session[sessionurl_q]">$vbphrase[members_list]</a></td></tr>
+		</if>
+		$template_hook[navbar_community_menu_end]
+		</table>
+	</div>
+	<!-- / community link menu -->
+	</if>
+	
+	<if condition="$show['searchbuttons']">
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="$stylevar[left]">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">$vbphrase[search_forums]</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+				<form action="search.php?do=process" method="post">
+
+					<input type="hidden" name="do" value="process" />
+					<input type="hidden" name="quicksearch" value="1" />
+					<input type="hidden" name="childforums" value="1" />
+					<input type="hidden" name="exactname" value="1" />
+					<input type="hidden" name="s" value="$session[sessionhash]" />
+					<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+					<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="$vbphrase[go]" tabindex="1004" /></div>
+					<div style="margin-top:$stylevar[cellpadding]px">
+						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />$vbphrase[show_threads]</label>
+						&nbsp;
+						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />$vbphrase[show_posts]</label>
+					</div>
+				</form>
+			</td>
+		</tr>
+		<if condition="$vboptions[threadtagging]">
+		<tr>
+			<td class="vbmenu_option"><a href="tags.php$session[sessionurl_q]" rel="nofollow">$vbphrase[tag_search]</a></td>
+		</tr>
+		</if>
+		<tr>
+			<td class="vbmenu_option"><a href="search.php$session[sessionurl_q]" accesskey="4" rel="nofollow">$vbphrase[advanced_search]</a></td>
+		</tr>
+		$template_hook[navbar_search_menu]
+		</table>
+	</div>
+	<!-- / header quick search form -->
+	</if>
+	
+	<if condition="$show['member']">
+	<!-- user cp tools menu -->
+	<div class="vbmenu_popup" id="usercptools_menu" style="display:none;margin-top:3px" align="$stylevar[left]">
+		<table cellpadding="4" cellspacing="1" border="0">
+
+		<tr><td class="thead">$vbphrase[quick_links]</td></tr>
+		<if condition="$vboptions['enablesearches']"><tr><td class="vbmenu_option"><a href="search.php?$session[sessionurl]do=getdaily">$vbphrase[todays_posts]</a></td></tr></if>
+		<tr><td class="vbmenu_option"><a href="forumdisplay.php?$session[sessionurl]do=markread">$vbphrase[mark_forums_read]</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="#" onclick="window.open('misc.php?$session[sessionurl]do=buddylist&amp;focus=1','buddylist','statusbar=no,menubar=no,toolbar=no,scrollbars=yes,resizable=yes,width=250,height=300'); return false;">$vbphrase[open_contacts]</a></td></tr>
+		$template_hook[navbar_quick_links_menu_pos1]
+		$template_hook[navbar_quick_links_menu_pos2]
+
+		<tr><td class="thead"><a href="usercp.php$session[sessionurl_q]">$vbphrase[user_control_panel]</a></td></tr>
+		<if condition="$show['siglink']"><tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=editsignature">$vbphrase[edit_signature]</a></td></tr></if>
+		<!--<if condition="$show['avatarlink']"><tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=editavatar">$vbphrase[edit_avatar]</a></td></tr></if>-->
+		<tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=editprofile">$vbphrase[edit_your_details]</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=editoptions">$vbphrase[edit_options]</a></td></tr>
+		$template_hook[navbar_quick_links_menu_pos3]
+
+		<tr><td class="thead">$vbphrase[miscellaneous]</td></tr>
+		<if condition="$show['pmmainlink']"><tr><td class="vbmenu_option"><a href="private.php$session[sessionurl_q]" rel="nofollow">$vbphrase[private_messages]</a></td></tr></if>
+		<tr><td class="vbmenu_option"><a href="subscription.php$session[sessionurl_q]" rel="nofollow">$vbphrase[subscribed_threads]</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="member.php?$session[sessionurl]u=$bbuserinfo[userid]">$vbphrase[your_profile]</a></td></tr>
+		<if condition="$show['wollink']"><tr><td class="vbmenu_option"><a href="online.php$session[sessionurl_q]">$vbphrase[whos_online]</a></td></tr></if>
+		$template_hook[navbar_quick_links_menu_pos4]
+
+		</table>
+	</div>
+	<!-- / user cp tools menu -->
+
+	</if>
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" nowrap="nowrap">$vbphrase[go_to_page]</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="$vboptions[forumhome].php" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4" />
+				<input type="button" class="button" id="pagenav_ibtn" value="$vbphrase[go]" />
+			</form>
+			</td>
+		</tr>
+		</table>
+	</div>
+<!-- / PAGENAV POPUP -->
+</if>
+
+<if condition="$show['member'] AND 	$notifications_total">
+<!-- notifications menu -->
+<div class="vbmenu_popup" id="notifications_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr><td class="thead" colspan="2">$vbphrase[your_notifications]</td></tr>
+	$notifications_menubits
+	</table>
+</div>
+<!-- / notifications menu -->
+</if>
+
+$ad_location[ad_navbar_below]]]></template>
+	</templategroup>
+	<templategroup name="Postbit">
+		<template name="postbit" templatetype="template" date="1233629163" username="Sean" version="3.8.1"><![CDATA[$template_hook[postbit_start]
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" id="post$post[postid]" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+<tr>
+	<td class="thead" $post[scrolltothis]>
+		<div class="normal" style="float:$stylevar[right]">
+			&nbsp;
+			<if condition="$show['postcount']">#<a href="showpost.php?$session[sessionurl]p=$post[postid]&amp;postcount=$post[postcount]" target="new" rel="nofollow" id="postcount$post[postid]" name="$post[postcount]"><strong>$post[postcount]</strong></a> &nbsp;</if>
+			<if condition="$show['reputationlink']">
+				<span id="reputationmenu_$post[postid]"><a href="reputation.php?$session[sessionurl]p=$post[postid]" rel="nofollow" id="reputation_$post[postid]"><img class="inlineimg" src="$stylevar[imgdir_button]/reputation.gif" alt="<phrase 1="$post[username]">$vbphrase[add_to_xs_reputation]</phrase>" border="0" /></a></span>
+				<if condition="$show['popups']"><script type="text/javascript"> vbrep_register("$post[postid]")</script></if>&nbsp;
+			</if>
+			<if condition="$show['infractionlink']"><a href="infraction.php?$session[sessionurl]do=report&amp;p=$post[postid]" rel="nofollow"><img class="inlineimg" src="$stylevar[imgdir_button]/infraction.gif" alt="<phrase 1="$post[username]">$vbphrase[add_infraction_for_x]</phrase>" border="0" /></a> &nbsp;</if>
+			<if condition="$show['reportlink']"><a href="report.php?$session[sessionurl]p=$post[postid]" rel="nofollow"><img class="inlineimg" src="$stylevar[imgdir_button]/report.gif" alt="$vbphrase[report_bad_post]" border="0" /></a> &nbsp;</if>
+			$post[iplogged]
+			<if condition="$show['inlinemod']">
+			<input type="checkbox" name="plist[$postid]" id="plist_$postid" style="vertical-align:middle; padding:0px; margin:0px 0px 0px 5px" value="$post[checkbox_value]" />
+			</if>
+		</div>
+
+		<div class="normal">
+			<!-- status icon and date -->
+			<a name="post$post[postid]"><img class="inlineimg" src="$stylevar[imgdir_statusicon]/post_$post[statusicon].gif" alt="$post[statustitle]" border="0" /></a>
+			<if condition="!$show['announcement']">
+				$post[postdate]<if condition="!$show['detailedtime']">, $post[posttime]</if>
+			<else />
+				<phrase 1="$post[startdate]" 2="$post[enddate]">$vbphrase[x_until_y]</phrase>
+			</if>
+			$post[firstnewinsert]
+			<!-- / status icon and date -->
+		</div>
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="padding:0px">
+		<!-- user info -->
+		<table cellpadding="0" cellspacing="$stylevar[cellpadding]" border="0" width="100%">
+		<tr>
+			<if condition="$show['avatar']"><td class="alt2"><a href="member.php?$session[sessionurl]u=$post[userid]"><img src="$post[avatarurl]" $post[avwidth] $post[avheight] alt="<phrase 1="$post[username]">$vbphrase[xs_avatar]</phrase>" border="0" /></a></td></if>
+			<td nowrap="nowrap">
+
+				<div id="postmenu_$post[postid]">
+					<if condition="$show['profile']">
+					<a class="bigusername" href="member.php?$session[sessionurl]u=$post[userid]">$post[musername]</a>
+					$post[onlinestatus]
+					<script type="text/javascript"> vbmenu_register("postmenu_$post[postid]", true); </script>
+					<else />
+					$post[musername]
+					</if>
+				</div>
+
+				<if condition="$post['usertitle']"><div class="smallfont">$post[usertitle]</div></if>
+				<if condition="$post['rank']"><div class="smallfont">$post[rank]</div></if>
+				$template_hook[postbit_userinfo_left]
+
+			</td>
+			<td width="100%">&nbsp;</td>
+			<td valign="top" nowrap="nowrap">
+
+				<div class="smallfont">
+					<if condition="$post['joindate']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px" width="100%">$vbphrase[join_date]: $post[joindate]</div></if>
+					<if condition="$post['field2']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px" width="100%">$vbphrase[location_perm]: $post[field2]</div></if>
+					<if condition="$post['age']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px" width="100%">$vbphrase[age]: $post[age]</div></if>
+					<div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px" width="100%">
+						$vbphrase[posts]: $post[posts]
+					</div>
+					$template_hook[postbit_userinfo_right_after_posts]
+					<if condition="$show['infraction']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px" width="100%">$vbphrase[infractions]: $post[warnings]/$post[infractions] ($post[ipoints])</div></if>
+					<if condition="$show['reputation']"><if condition="$show['reppower']">$vbphrase[reppower]: <span id="reppower_$post[postid]_$post[userid]">$post[reppower]</span> </if><div><span id="repdisplay_$post[postid]_$post[userid]">$post[reputationdisplay]</span></div></if>
+					$template_hook[postbit_userinfo_right]
+					<div>$post[icqicon] $post[aimicon] $post[msnicon] $post[yahooicon] $post[skypeicon]</div>
+				</div>
+
+			</td>
+		</tr>
+		</table>
+		<!-- / user info -->
+	</td>
+</tr>
+<tr>
+	<if condition="$show['moderated']">
+	<td class="alt2" id="td_post_$post[postid]">
+	<else />
+	<td class="alt1" id="td_post_$post[postid]">
+	</if>	
+	<!-- message, attachments, sig -->
+
+		$template_hook[postbit_messagearea_start]
+
+		<if condition="$show['messageicon'] OR $post['title']">
+			<!-- icon and title -->
+			<div class="smallfont">
+				<if condition="$show['messageicon']"><img class="inlineimg" src="$post[iconpath]" alt="$post[icontitle]" border="0" /></if>
+				<if condition="$post['title']"><strong>$post[title]</strong></if>
+			</div>
+			<hr size="1" style="color:$stylevar[tborder_bgcolor]; background-color:$stylevar[tborder_bgcolor]" />
+			<!-- / icon and title -->
+		</if>
+
+		<!-- message -->
+		<div id="post_message_$post[postid]">
+			$ad_location[ad_showthread_firstpost_start]
+			$post[message]
+		</div>
+		<!-- / message -->
+
+		<if condition="$show['attachments']">
+		<!-- attachments -->
+			<div style="padding:$stylevar[cellpadding]px">
+
+			<if condition="$show['thumbnailattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_thumbnails]</legend>
+					<div style="padding:$stylevar[formspacer]px">
+					$post[thumbnailattachments]
+					</div>
+				</fieldset>
+			</if>
+
+			<if condition="$show['imageattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_images]</legend>
+					<div style="padding:$stylevar[formspacer]px">
+					$post[imageattachments]
+					</div>
+				</fieldset>
+			</if>
+
+			<if condition="$show['imageattachmentlink']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_images]</legend>
+					<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+					$post[imageattachmentlinks]
+					</table>
+					</fieldset>
+			</if>
+
+			<if condition="$show['otherattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_files]</legend>
+					<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+					$post[otherattachments]
+					</table>
+				</fieldset>
+			</if>
+
+			<if condition="$show['moderatedattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attachments_pending_approval]</legend>
+					<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+					$post[moderatedattachments]
+					</table>
+				</fieldset>
+			</if>
+
+			</div>
+		<!-- / attachments -->
+		</if>
+
+		$template_hook[postbit_signature_start]
+		$ad_location[ad_showthread_firstpost_sig]
+
+		<if condition="$post['signature']">
+		<!-- sig -->
+			<div>
+				__________________<br />
+				$post[signature]
+			</div>
+		<!-- / sig -->
+		</if>
+
+		$template_hook[postbit_signature_end]
+
+		<if condition="$show['postedited']">
+		<!-- edit note -->
+			<div class="smallfont">
+				<hr size="1" style="color:$stylevar[tborder_bgcolor]; background-color:$stylevar[tborder_bgcolor]" />
+				<em>
+					<if condition="$show['postedithistory']">
+						<phrase 1="$post[edit_username]" 2="$post[edit_date]" 3="$post[edit_time]" 4="posthistory.php?$session[sessionurl]p=$post[postid]">$vbphrase[last_edited_link_by_x_on_y_at_z_postid]</phrase>
+					<else />
+						<phrase 1="$post[edit_username]" 2="$post[edit_date]" 3="$post[edit_time]">$vbphrase[last_edited_by_x_on_y_at_z]</phrase>
+					</if>
+					<if condition="$post['edit_reason']">
+						$vbphrase[reason]: $post[edit_reason]
+					</if>
+				</em>
+			</div>
+		<!-- / edit note -->
+		</if>
+
+		<div style="margin-top: 10px" align="$stylevar[right]">
+			<!-- controls -->
+			<if condition="$post['editlink']">
+				<img style="display: none" id="progress_$postid" src="$stylevar[imgdir_misc]/progress.gif" alt="$vbphrase[loading_editor_please_wait]" />
+				<a href="$post[editlink]" name="vB::QuickEdit::$post[postid]"><img src="$stylevar[imgdir_button]/edit.gif" alt="$vbphrase[edit_delete_message]" border="0" /></a>
+			</if>
+			<if condition="$post['forwardlink']">
+				<a href="$post[forwardlink]"><img src="$stylevar[imgdir_button]/forward.gif" alt="$vbphrase[forward_message]" border="0" /></a>
+			</if>
+			<if condition="$post['replylink']">
+				<a href="$post[replylink]" rel="nofollow"><img src="$stylevar[imgdir_button]/<if condition="$post['forwardlink']">reply_small<else />quote</if>.gif" alt="$vbphrase[reply_with_quote]" border="0" /></a>
+			</if>
+			<if condition="$show['multiquote_post']">
+				<a href="$post[replylink]" rel="nofollow" onclick="return false"><img src="$stylevar[imgdir_button]/multiquote_<if condition="$show['multiquote_selected']">on<else />off</if>.gif" alt="$vbphrase[multi_quote_this_message]" border="0" id="mq_$post[postid]" /></a>
+			</if>
+			<if condition="$show['quickreply'] AND !$show['threadedmode']">
+				<a href="$post[replylink]" rel="nofollow" id="qr_$post[postid]" onclick="return false"><img src="$stylevar[imgdir_button]/quickreply.gif" alt="$vbphrase[quick_reply_to_this_message]" border="0" /></a>
+			</if>
+			<if condition="$show['moderated']">
+				<img src="$stylevar[imgdir_misc]/moderated.gif" alt="$vbphrase[moderated_post]" border="0" />
+			</if>
+			<if condition="$show['spam']">
+				<img src="$stylevar[imgdir_misc]/spam_detected.png" alt="$vbphrase[spam_post]" border="0" />
+			</if>
+			<if condition="$show['deletedpost']">
+				<if condition="$show['managepost']">
+					<a href="postings.php?$session[sessionurl]do=managepost&amp;p=$post[postid]"><img src="$stylevar[imgdir_misc]/trashcan.gif" alt="$vbphrase[manage]" border="0" /></a>
+				<else />
+					<img src="$stylevar[imgdir_misc]/trashcan.gif" alt="$vbphrase[deleted_post]" border="0" />
+				</if>
+			</if>
+			<if condition="$show['redcard']">
+				<a href="infraction.php?$session[sessionurl]do=view&amp;p=$post[postid]"><img src="$stylevar[imgdir_button]/redcard.gif" alt="$vbphrase[received_infraction]" border="0" /></a>
+			<else />
+				<if condition="$show['yellowcard']">
+					<a href="infraction.php?$session[sessionurl]do=view&amp;p=$post[postid]"><img src="$stylevar[imgdir_button]/yellowcard.gif" alt="$vbphrase[received_warning]" border="0" /></a>
+				</if>
+			</if>
+			$template_hook[postbit_controls]
+			<!-- / controls -->
+		</div>
+
+	<!-- message, attachments, sig -->
+
+	</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+$template_hook[postbit_end]
+
+<!-- post $post[postid] popup menu -->
+<div class="vbmenu_popup" id="postmenu_$post[postid]_menu" style="display:none;">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">$post[username]</td>
+	</tr>
+	<if condition="$show['profile']">
+		<tr><td class="vbmenu_option"><a href="member.php?$session[sessionurl]u=$post[userid]">$vbphrase[view_public_profile]</a></td></tr>
+	</if>
+	<if condition="$show['pmlink']">
+		<tr><td class="vbmenu_option"><a href="private.php?$session[sessionurl]do=newpm&amp;u=$post[userid]" rel="nofollow"><phrase 1="$post[username]">$vbphrase[send_private_message_to_x]</phrase></a></td></tr>
+	</if>
+	<if condition="$show['emaillink']">
+		<tr><td class="vbmenu_option"><a href="sendmessage.php?$session[sessionurl]do=mailmember&amp;u=$post[userid]" rel="nofollow"><phrase 1="$post[username]">$vbphrase[send_email_to_x]</phrase></a></td></tr>
+	</if>
+	<if condition="$show['homepage']">
+		<tr><td class="vbmenu_option"><a href="$post[homepage]"><phrase 1="$post[username]">$vbphrase[visit_xs_homepage]</phrase></a></td></tr>
+	</if>
+	<if condition="$show['search']">
+		<tr><td class="vbmenu_option"><a href="search.php?$session[sessionurl]do=finduser&amp;u=$post[userid]" rel="nofollow"><phrase 1="$post[username]">$vbphrase[find_all_posts_by_x]</phrase></a></td></tr>
+	</if>
+	<if condition="$post['userid'] AND $show['member']">
+	<tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=addlist&amp;userlist=buddy&amp;u=$post[userid]"><phrase 1="$post[username]">$vbphrase[add_x_to_contacts]</phrase></a></td></tr>
+	</if>
+	$template_hook[postbit_user_popup]
+	</table>
+</div>
+<!-- / post $post[postid] popup menu -->]]></template>
+		<template name="postbit_legacy" templatetype="template" date="1233629305" username="Sean" version="3.8.1"><![CDATA[$template_hook[postbit_start]
+<div style="padding: 5px 5px 5px 5px;"></div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table id="post$post[postid]" class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	<if condition="$show['announcement']">
+		<td class="thead" style="font-weight:normal; border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]" colspan="2">
+			<img class="inlineimg" src="$stylevar[imgdir_statusicon]/post_$post[statusicon].gif" alt="$post[statustitle]" border="0" />
+			<phrase 1="$post[startdate]" 2="$post[enddate]">$vbphrase[x_until_y]</phrase>
+		</td>
+	<else />
+		<td class="thead" style="font-weight:normal; border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]; border-$stylevar[right]: 0px" $post[scrolltothis]>
+			<!-- status icon and date -->
+			<a name="post$post[postid]"><img class="inlineimg" src="$stylevar[imgdir_statusicon]/post_$post[statusicon].gif" alt="$post[statustitle]" border="0" /></a>
+			$post[postdate]<if condition="!$show['detailedtime']">, $post[posttime]</if>
+			$post[firstnewinsert]
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]; border-$stylevar[left]: 0px" align="$stylevar[right]">
+			&nbsp;
+			<if condition="$show['postcount']">#<a href="showpost.php?$session[sessionurl]p=$post[postid]&amp;postcount=$post[postcount]" target="new" rel="nofollow" id="postcount$post[postid]" name="$post[postcount]"><strong>$post[postcount]</strong></a></if>
+			<if condition="$show['inlinemod']">
+				<input type="checkbox" name="plist[$postid]" id="plist_$postid" style="vertical-align:middle; padding:0px; margin:0px 0px 0px 5px" value="$post[checkbox_value]" />
+			</if>
+		</td>
+	</if>
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]; border-top: 0px; border-bottom: 0px">
+         <div align="center">
+			<div id="postmenu_$post[postid]">
+				<if condition="$show['profile']">
+				<a class="bigusername" href="member.php?$session[sessionurl]u=$post[userid]">$post[musername]</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_$post[postid]", true); </script>
+				<else />
+				$post[musername]
+				</if>
+			</div>
+
+
+			<if condition="$post['rank']"><div class="smallfont">$post[rank]</div></if>
+			$template_hook[postbit_userinfo_left]
+
+			<if condition="$show['avatar']">
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?$session[sessionurl]u=$post[userid]"><img src="$post[avatarurl]" $post[avwidth] $post[avheight] alt="<phrase 1="$post[username]">$vbphrase[xs_avatar]</phrase>" border="0" /></a>
+				</div>
+			</if>
+         </div>
+
+			<div class="smallfont">
+				&nbsp;<br />
+            <if condition="$post['usertitle']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; padding: 3px;" width="100%">$post[usertitle]</div></if>
+            <if condition="$post['joindate']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; padding: 3px;" width="100%">$vbphrase[join_date]: $post[joindate]</div></if>
+            <if condition="$post['field2']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; padding: 3px;" width="100%">$vbphrase[location_perm]: $post[field2]</div></if>
+            <if condition="$post['age']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; padding: 3px;" width="100%">$vbphrase[age]: $post[age]</div></if>
+            <div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; padding: 3px;" width="100%">
+					$vbphrase[posts]: $post[posts]
+				</div>
+				$template_hook[postbit_userinfo_right_after_posts]
+            <if condition="$show['infraction']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px" width="100%">$vbphrase[infractions]: $post[warnings]/$post[infractions] ($post[ipoints])</div></if>
+            <if condition="$show['reputation']"><div style="border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; padding: 3px;" width="100%"><if condition="$show['reppower']">$vbphrase[reppower]: <span id="reppower_$post[postid]_$post[userid]">$post[reppower]</span> </if><span id="repdisplay_$post[postid]_$post[userid]">$post[reputationdisplay]</span></div></if>
+				$template_hook[postbit_userinfo_right]
+				<div>$post[icqicon] $post[aimicon] $post[msnicon] $post[yahooicon] $post[skypeicon]</div>
+			</div>
+
+	</td>
+	<if condition="$show['moderated']">
+	<td class="alt2" id="td_post_$post[postid]" style="border-$stylevar[right]: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]">
+	<else />
+	<td class="alt1" id="td_post_$post[postid]" style="border-$stylevar[right]: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]">
+	</if>
+		$template_hook[postbit_messagearea_start]
+		<if condition="$show['messageicon'] OR $post['title']">
+			<!-- icon and title -->
+			<div class="smallfont">
+				<if condition="$show['messageicon']"><img class="inlineimg" src="$post[iconpath]" alt="$post[icontitle]" border="0" /></if>
+				<if condition="$post['title']"><strong>$post[title]</strong></if>
+			</div>
+			<hr size="1" style="color:$stylevar[tborder_bgcolor]; background-color:$stylevar[tborder_bgcolor]" />
+			<!-- / icon and title -->
+		</if>
+
+		<!-- message -->
+		<div id="post_message_$post[postid]">
+			$ad_location[ad_showthread_firstpost_start]
+			$post[message]
+		</div>
+		<!-- / message -->
+
+		<if condition="$show['attachments']">
+		<!-- attachments -->
+			<div style="padding:$stylevar[cellpadding]px">
+
+			<if condition="$show['thumbnailattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_thumbnails]</legend>
+					<div style="padding:$stylevar[formspacer]px">
+					$post[thumbnailattachments]
+					</div>
+				</fieldset>
+			</if>
+
+			<if condition="$show['imageattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_images]</legend>
+					<div style="padding:$stylevar[formspacer]px">
+					$post[imageattachments]
+					</div>
+				</fieldset>
+			</if>
+
+			<if condition="$show['imageattachmentlink']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_images]</legend>
+					<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+					$post[imageattachmentlinks]
+					</table>
+					</fieldset>
+			</if>
+
+			<if condition="$show['otherattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attached_files]</legend>
+					<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+					$post[otherattachments]
+					</table>
+				</fieldset>
+			</if>
+
+			<if condition="$show['moderatedattachment']">
+				<fieldset class="fieldset">
+					<legend>$vbphrase[attachments_pending_approval]</legend>
+					<table cellpadding="0" cellspacing="$stylevar[formspacer]" border="0">
+					$post[moderatedattachments]
+					</table>
+				</fieldset>
+			</if>
+
+			</div>
+		<!-- / attachments -->
+		</if>
+
+		$template_hook[postbit_signature_start]
+		$ad_location[ad_showthread_firstpost_sig]
+
+		<if condition="$post['signature']">
+		<!-- sig -->
+			<div>
+				__________________<br />
+				$post[signature]
+			</div>
+		<!-- / sig -->
+		</if>
+
+		$template_hook[postbit_signature_end]
+
+		<if condition="$show['postedited']">
+		<!-- edit note -->
+			<div class="smallfont">
+				<hr size="1" style="color:$stylevar[tborder_bgcolor]; background-color:$stylevar[tborder_bgcolor]" />
+				<em>
+					<if condition="$show['postedithistory']">
+						<phrase 1="$post[edit_username]" 2="$post[edit_date]" 3="$post[edit_time]" 4="posthistory.php?$session[sessionurl]p=$post[postid]">$vbphrase[last_edited_link_by_x_on_y_at_z_postid]</phrase>
+					<else />
+						<phrase 1="$post[edit_username]" 2="$post[edit_date]" 3="$post[edit_time]">$vbphrase[last_edited_by_x_on_y_at_z]</phrase>
+					</if>
+					<if condition="$post['edit_reason']">
+						$vbphrase[reason]: $post[edit_reason]
+					</if>
+				</em>
+			</div>
+		<!-- / edit note -->
+		</if>
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]; border-top: 0px">
+		$post[onlinestatus]
+		<if condition="$show['reputationlink']">
+			<span id="reputationmenu_$post[postid]"><a href="reputation.php?$session[sessionurl]p=$post[postid]" rel="nofollow" id="reputation_$post[postid]"><img class="inlineimg" src="$stylevar[imgdir_button]/reputation.gif" alt="<phrase 1="$post[username]">$vbphrase[add_to_xs_reputation]</phrase>" border="0" /></a></span>
+			<if condition="$show['popups']"><script type="text/javascript"> vbrep_register("$post[postid]")</script></if>
+		</if>
+		<if condition="$show['infractionlink']"><a href="infraction.php?$session[sessionurl]do=report&amp;p=$post[postid]" rel="nofollow"><img class="inlineimg" src="$stylevar[imgdir_button]/infraction.gif" alt="<phrase 1="$post[username]">$vbphrase[add_infraction_for_x]</phrase>" border="0" /></a></if>
+		<if condition="$show['reportlink']"><a href="report.php?$session[sessionurl]p=$post[postid]" rel="nofollow"><img class="inlineimg" src="$stylevar[imgdir_button]/report.gif" alt="$vbphrase[report_bad_post]" border="0" /></a></if>
+		$post[iplogged]
+		&nbsp;
+	</td>
+	<if condition="$show['moderated']">
+	<td class="alt2" align="$stylevar[right]" style="border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]; border-$stylevar[left]: 0px; border-top: 0px">
+	<else />
+	<td class="alt1" align="$stylevar[right]" style="border: $stylevar[cellspacing]px solid $stylevar[tborder_bgcolor]; border-$stylevar[left]: 0px; border-top: 0px">
+	</if>
+		<!-- controls -->
+		<if condition="$post['editlink']">
+			<img style="display: none" id="progress_$postid" src="$stylevar[imgdir_misc]/progress.gif" alt="$vbphrase[loading_editor_please_wait]" />
+			<a href="$post[editlink]" name="vB::QuickEdit::$post[postid]"><img src="$stylevar[imgdir_button]/edit.gif" alt="$vbphrase[edit_delete_message]" border="0" /></a>
+		</if>
+		<if condition="$post['forwardlink']">
+			<a href="$post[forwardlink]"><img src="$stylevar[imgdir_button]/forward.gif" alt="$vbphrase[forward_message]" border="0" /></a>
+		</if>
+		<if condition="$post['replylink']">
+			<a href="$post[replylink]" rel="nofollow"><img src="$stylevar[imgdir_button]/<if condition="$post['forwardlink']">reply_small<else />quote</if>.gif" alt="$vbphrase[reply_with_quote]" border="0" /></a>
+		</if>
+		<if condition="$show['multiquote_post']">
+			<a href="$post[replylink]" rel="nofollow" onclick="return false"><img src="$stylevar[imgdir_button]/multiquote_<if condition="$show['multiquote_selected']">on<else />off</if>.gif" alt="$vbphrase[multi_quote_this_message]" border="0" id="mq_$post[postid]" /></a>
+		</if>
+		<if condition="$show['quickreply'] AND !$show['threadedmode']">
+			<a href="$post[replylink]" rel="nofollow" id="qr_$post[postid]" onclick="return false"><img src="$stylevar[imgdir_button]/quickreply.gif" alt="$vbphrase[quick_reply_to_this_message]" border="0" /></a>
+		</if>
+		<if condition="$show['moderated']">
+			<img src="$stylevar[imgdir_misc]/moderated.gif" alt="$vbphrase[moderated_post]" border="0" />
+		</if>
+		<if condition="$show['spam']">
+			<img src="$stylevar[imgdir_misc]/spam_detected.png" alt="$vbphrase[spam_post]" border="0" />
+		</if>
+		<if condition="$show['deletedpost']">
+			<if condition="$show['managepost']">
+				<a href="postings.php?$session[sessionurl]do=managepost&amp;p=$post[postid]"><img src="$stylevar[imgdir_misc]/trashcan.gif" alt="$vbphrase[manage]" border="0" /></a>
+			<else />
+				<img src="$stylevar[imgdir_misc]/trashcan.gif" alt="$vbphrase[deleted_post]" border="0" />
+			</if>
+		</if>
+		<if condition="$show['redcard']">
+			<a href="infraction.php?$session[sessionurl]do=view&amp;p=$post[postid]"><img src="$stylevar[imgdir_button]/redcard.gif" alt="$vbphrase[received_infraction]" border="0" /></a>
+		<else />
+			<if condition="$show['yellowcard']">
+				<a href="infraction.php?$session[sessionurl]do=view&amp;p=$post[postid]"><img src="$stylevar[imgdir_button]/yellowcard.gif" alt="$vbphrase[received_warning]" border="0" /></a>
+			</if>
+		</if>
+		$template_hook[postbit_controls]
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+$template_hook[postbit_end]
+
+<!-- post $post[postid] popup menu -->
+<div class="vbmenu_popup" id="postmenu_$post[postid]_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">$post[username]</td>
+	</tr>
+	<if condition="$show['profile']">
+		<tr><td class="vbmenu_option"><a href="member.php?$session[sessionurl]u=$post[userid]">$vbphrase[view_public_profile]</a></td></tr>
+	</if>
+	<if condition="$show['pmlink']">
+		<tr><td class="vbmenu_option"><a href="private.php?$session[sessionurl]do=newpm&amp;u=$post[userid]" rel="nofollow"><phrase 1="$post[username]">$vbphrase[send_private_message_to_x]</phrase></a></td></tr>
+	</if>
+	<if condition="$show['emaillink']">
+		<tr><td class="vbmenu_option"><a href="sendmessage.php?$session[sessionurl]do=mailmember&amp;u=$post[userid]" rel="nofollow"><phrase 1="$post[username]">$vbphrase[send_email_to_x]</phrase></a></td></tr>
+	</if>
+	<if condition="$show['homepage']">
+		<tr><td class="vbmenu_option"><a href="$post[homepage]"><phrase 1="$post[username]">$vbphrase[visit_xs_homepage]</phrase></a></td></tr>
+	</if>
+	<if condition="$show['search']">
+		<tr><td class="vbmenu_option"><a href="search.php?$session[sessionurl]do=finduser&amp;u=$post[userid]" rel="nofollow"><phrase 1="$post[username]">$vbphrase[find_more_posts_by_x]</phrase></a></td></tr>
+	</if>
+	<if condition="$post['userid'] AND $show['member']">
+	<tr><td class="vbmenu_option"><a href="profile.php?$session[sessionurl]do=addlist&amp;userlist=buddy&amp;u=$post[userid]"><phrase 1="$post[username]">$vbphrase[add_x_to_contacts]</phrase></a></td></tr>
+	</if>
+	$template_hook[postbit_user_popup]
+	</table>
+</div>
+<!-- / post $post[postid] popup menu -->]]></template>
+	</templategroup>
+	<templategroup name="Show Thread">
+		<template name="SHOWTHREAD" templatetype="template" date="1233629391" username="Sean" version="3.8.1"><![CDATA[$stylevar[htmldoctype]
+<html xmlns="http://www.w3.org/1999/xhtml" dir="$stylevar[textdirection]" lang="$stylevar[languagecode]">
+<head>
+	$headinclude
+	<title>$thread[prefix_plain_html] $thread[title]<if condition="$pagenumber>1"> - <phrase 1="$pagenumber">$vbphrase[page_x]</phrase></if> - $vboptions[bbtitle]</title>
+	<script type="text/javascript" src="clientscript/vbulletin_post_loader.js?v=$vboptions[simpleversion]"></script>
+	<style type="text/css" id="vbulletin_showthread_css">
+	<!--
+	<if condition="$show['tag_box']">
+	#tag_edit_list { list-style:none; margin:0px; padding:0px; }
+	#tag_edit_list li { float:$stylevar[left]; display:block; width:200px; }
+	#tag_edit_list li.mine { font-weight:bold; }
+	</if>
+	#links div { white-space: nowrap; }
+	#links img { vertical-align: middle; }
+	-->
+	</style>
+</head>
+<body onload="$onload">
+$header
+$navbar
+
+$poll
+
+<if condition="$show['inlinemod']">
+$spacer_close
+<form action="inlinemod.php?threadid=$threadinfo[threadid]&amp;p=$postid" method="post" id="inlinemodform">
+$spacer_open
+</if>
+
+<a name="poststop" id="poststop"></a>
+
+<!-- controls above postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px">
+<tr valign="bottom">
+	<if condition="$show['largereplybutton']">
+		<td class="smallfont"><a href="newreply.php?$session[sessionurl]do=newreply&amp;noquote=1&amp;p=$FIRSTPOSTID" rel="nofollow"><if condition="$show['closethread']"><img src="$stylevar[imgdir_button]/reply.gif" alt="$vbphrase[reply]" border="0" /><else /><img src="$stylevar[imgdir_button]/threadclosed.gif" alt="$vbphrase[closed_thread]" border="0" /></if></a></td>
+	<else />
+		<td class="smallfont">&nbsp;</td>
+	</if>
+	<if condition="$show['pagenav']"><td align="$stylevar[right]">$pagenav</td></if>
+</tr>
+</table>
+<!-- / controls above postbits -->
+
+<!-- toolbar -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" width="100%">
+		<div class="smallfont">
+		<if condition="$show['firstunreadlink']">
+			<a href="$firstunread"><img class="inlineimg" src="$stylevar[imgdir_button]/firstnew.gif" alt="$vbphrase[view_first_unread]" border="0" /></a>
+			<a href="$firstunread"><strong>$vbphrase[view_first_unread]</strong></a>
+		</if>
+		&nbsp;
+		</div>
+	</td>
+	<td class="vbmenu_control" id="threadtools" nowrap="nowrap">
+		<a href="$show[nojs_link]#goto_threadtools"<if condition="is_browser('ie')"> accesskey="3"</if>>$vbphrase[thread_tools]</a>
+		<if condition="$show['popups']"><script type="text/javascript"> vbmenu_register("threadtools"); </script></if>
+	</td>
+	<if condition="$show['search']">
+		<td class="vbmenu_control" id="threadsearch" nowrap="nowrap">
+			<a href="$show[nojs_link]#goto_threadsearch">$vbphrase[search_this_thread]</a>
+			<if condition="$show['popups']"><script type="text/javascript"> vbmenu_register("threadsearch"); </script></if>
+		</td>
+	</if>
+	<if condition="$show['threadrating']">
+		<td class="vbmenu_control" id="threadrating" nowrap="nowrap">
+			<a href="$show[nojs_link]#goto_threadrating"><span id="threadrating_current"><if condition="$show['rating']">$vbphrase[rating]: <img class="inlineimg" src="$stylevar[imgdir_rating]/rating_$thread[rating].gif" alt="<phrase 1="$thread[votenum]" 2="$thread[voteavg]">$vbphrase[thread_rating_x_votes_y_average]</phrase>" border="0" /><else />$vbphrase[rate_thread]</if></span></a>
+			<if condition="$show['popups']"><script type="text/javascript"> vbmenu_register("threadrating"); </script></if>
+		</td>
+	</if>
+	<if condition="$vboptions['allowthreadedmode']">
+	<td class="vbmenu_control" id="displaymodes" nowrap="nowrap">
+		<a href="$show[nojs_link]#goto_displaymodes">$vbphrase[display_modes]</a>
+		<if condition="$show['popups']"><script type="text/javascript"> vbmenu_register("displaymodes"); </script></if>
+	</td>
+	</if>
+
+	<if condition="$show['inlinemod']">
+		<if condition="$show['popups']">
+			<td class="vbmenu_control" id="imod" align="center" title="$vbphrase[moderation]"><script type="text/javascript"> vbmenu_register('imod'); </script></td>
+		<else />
+			<td class="thead" align="center">
+				<input type="checkbox" name="allbox" id="checkall_all" title="$vbphrase[check_uncheck_all]" onclick="inlineMod.check_all()" />
+			</td>
+		</if>
+	</if>
+
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+<!-- / toolbar -->
+
+<if condition="$show['inlinemod'] AND $show['popups']">
+	<div class="vbmenu_popup" id="imod_menu" style="display:none" align="$stylevar[left]">
+		$threadadmin_imod_menu_post
+	</div>
+</if>
+
+<!-- end content table -->
+$spacer_close
+<!-- / end content table -->
+
+<if condition="$show['threadedmode'] OR $show['hybridmode']">
+<!-- thread posts list -->
+$threadlist
+<!-- /thread posts list -->
+</if>
+
+<if condition="$show['reputation']">
+<script type="text/javascript" src="clientscript/vbulletin_ajax_reputation.js?v=$vboptions[simpleversion]"></script>
+</if>
+
+<div id="posts">$postbits<div id="lastpost"></div></div>
+
+<!-- start content table -->
+$spacer_open
+<!-- / start content table -->
+
+<!-- controls below postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:$stylevar[margin_3px_fix]px">
+<tr valign="top">
+	<if condition="$show['largereplybutton']">
+		<td class="smallfont"><a href="newreply.php?$session[sessionurl]do=newreply&amp;noquote=1&amp;p=$LASTPOSTID" rel="nofollow"><if condition="$show['closethread']"><img src="$stylevar[imgdir_button]/reply.gif" alt="$vbphrase[reply]" border="0" /><else /><img src="$stylevar[imgdir_button]/threadclosed.gif" alt="$vbphrase[closed_thread]" border="0" /></if></a></td>
+	<else />
+		<td class="smallfont">&nbsp;</td>
+	</if>
+	<if condition="$show['pagenav'] OR $show['inlinemod']">
+		<td align="$stylevar[right]">$pagenav
+		<if condition="$show['inlinemod']">
+			<div class="smallfont" style="text-align:$stylevar[left]; white-space:nowrap; float:$stylevar[right]">
+			<if condition="$show['pagenav']"><br /></if><strong>$vbphrase[moderation]</strong><br />
+			<select name="do">
+				<if condition="$show['managethread'] OR $show['spamctrls'] OR $show['managepost'] OR $show['approvepost'] OR $show['approveattachment'] OR $template_hook['inlinemod_post_bottom']">
+				<optgroup label="$vbphrase[option]">
+					<if condition="$show['managethread']">
+					<option value="mergeposts">$vbphrase[merge_posts]</option>
+					<option value="moveposts">$vbphrase[move_posts]</option>
+					<option value="copyposts">$vbphrase[copy_posts]</option>
+					</if>
+					<if condition="$show['spamctrls']">
+					<option value="spampost">$vbphrase[delete_posts_as_spam]</option>
+					</if>
+					<if condition="$show['managepost']">
+					<option value="deleteposts">$vbphrase[delete_posts]</option>
+					<option value="undeleteposts">$vbphrase[undelete_posts]</option>
+					</if>
+					<if condition="$show['approvepost']">
+					<option value="approveposts">$vbphrase[approve_posts]</option>
+					<option value="unapproveposts">$vbphrase[unapprove_posts]</option>
+					</if>
+					<if condition="$show['approveattachment']">
+					<option value="approveattachments">$vbphrase[approve_attachments]</option>
+					<option value="unapproveattachments">$vbphrase[unapprove_attachments]</option>
+					</if>
+					$template_hook[inlinemod_post_bottom]
+				</optgroup>
+				</if>
+				<optgroup label="____________________">
+					<option value="viewpost">$vbphrase[view_selected_posts]</option>
+					<option value="clearpost">$vbphrase[clear_post_list]</option>
+				</optgroup>
+			</select><input type="submit" class="button" id="inlinego" value="$vbphrase[go]" />
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+			<input type="hidden" name="threadid" value="$threadinfo[threadid]" />
+			<input type="hidden" name="p" value="$postid" />
+			<input type="hidden" name="url" value="$url" />
+			</div>
+			<script type="text/javascript" src="clientscript/vbulletin_inlinemod.js?v=$vboptions[simpleversion]"></script>
+			<script type="text/javascript">
+			<!--
+			inlineMod = new vB_Inline_Mod('inlineMod', 'post', 'inlinemodform', '$vbphrase[go_x]');
+			//-->
+			</script>
+		</if>
+		</td>
+	</if>
+</tr>
+</table>
+<!-- / controls below postbits -->
+
+<if condition="$show['inlinemod']">
+$spacer_close
+</form>
+$spacer_open
+</if>
+
+<if condition="$bookmarksites">
+<!-- social bookmarking links -->
+	<br />
+	<table cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" class="tborder" align="center">
+	<tr>
+		<td class="thead">$vbphrase[bookmarks]</td>
+	</tr>
+	<tr>
+		<td class="alt2" style="padding-top:0px"><div style="clear:both"></div><ul style="list-style-type:none; margin:0px; padding:0px">$bookmarksites</ul><div style="clear:both"></div></td>
+	</tr>
+	</table>
+<!-- / social bookmarking links -->
+</if>
+
+<if condition="$show['tag_box']">
+<!-- thread tags -->
+	<br />
+	<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+	<tr>
+		<td class="thead">
+			<if condition="$show['manage_tag']"><div style="float: $stylevar[right]" class="normal">
+				<a href="threadtag.php?$session[sessionurl]t=$thread[threadid]" id="tag_edit_link">$vbphrase[edit_tags]</a>
+			</div></if>
+			<a name="taglist"></a>
+			<a href="tags.php$session[sessionurl_q]">$vbphrase[tags]</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="alt1 smallfont" id="tag_list_cell">$tag_list</td>
+	</tr>
+	</table>
+
+	<script type="text/javascript" src="clientscript/vbulletin_ajax_taglist.js?v=$vboptions[simpleversion]"></script>
+		<script type="text/javascript" src="clientscript/vbulletin_ajax_tagsugg.js?v=$vboptions[simpleversion]"></script>
+<!-- / thread tags -->
+</if>
+
+$ad_location[ad_showthread_beforeqr]
+
+<if condition="$show['lightbox']">
+<!-- lightbox scripts -->
+	<script type="text/javascript" src="clientscript/vbulletin_lightbox.js?v=$vboptions[simpleversion]"></script>
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", $vboptions[lightboxenabled]);
+	//-->
+	</script>
+<!-- / lightbox scripts -->
+</if>
+
+<if condition="$show['multiquote_global']">
+<!-- multiquote scripts -->
+	<script type="text/javascript" src="clientscript/vbulletin_multi_quote.js?v=$vboptions[simpleversion]"></script>
+	<script type="text/javascript">
+	<!--
+	var mqlimit = $vboptions[mqlimit];
+	//-->
+	</script>
+<!-- / multiquote scripts -->
+</if>
+
+<if condition="$show['quickreply'] OR $show['ajax_js']">
+<!-- ajax errors table -->
+	<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" style="display:none; position:absolute" id="ajax_post_errors">
+	<tr>
+		<td class="thead">
+			<span style="float:$stylevar[right]"><input type="button" class="button" value=" X " onclick="vB_QuickEditor.hide_errors()" id="ajax_post_errors_closebtn" /></span>
+			$vbphrase[vbulletin_message]
+		</td>
+	</tr>
+	<tr>
+		<td class="alt2" colspan="2" id="ajax_post_errors_message">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="tfoot" colspan="2" align="center"><a href="#" onclick="vB_QuickEditor.abort(); return false;">$vbphrase[cancel_changes]</a></td>
+	</tr>
+	</table>
+<!-- / ajax errors table -->
+
+<!-- scripts for quick reply and quick edit -->
+	$vBeditTemplate[clientscript]
+	<if condition="$show['quickedit']">
+		<script type="text/javascript" src="clientscript/vbulletin_quick_edit.js?v=$vboptions[simpleversion]"></script>
+		<script type="text/javascript">
+		<!--
+		vB_AJAX_QuickEdit_Init('posts');
+		//-->
+		</script>
+	</if>
+<!-- / scripts for quick reply and quick edit -->
+</if>
+
+
+<if condition="$show['quickreply']">
+<!-- quick reply -->
+	<br />
+	<script type="text/javascript" src="clientscript/vbulletin_quick_reply.js?v=$vboptions[simpleversion]"></script>
+	<form action="newreply.php?do=postreply&amp;t=$threadid" method="post" name="vbform" onsubmit="return qr_prepare_submit(this, $vboptions[postminchars]);" id="qrform">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a4.gif" alt="" /></td>
+  <td width="100%" height="6" class="a5"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a6.gif" alt="" /></td>
+ </tr>
+</table>
+	<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+	<thead>
+		<tr>
+			<td class="tcat" colspan="2">
+				<if condition="$show['quickreply_collapse']"><a style="float:$stylevar[right]" href="#top" onclick="return toggle_collapse('quickreply');"><img id="collapseimg_quickreply" src="$stylevar[imgdir_button]/collapse_tcat$vbcollapse[collapseimg_quickreply].gif" alt="" border="0" /></a></if>
+				$vbphrase[quick_reply]
+			</td>
+		</tr>
+	</thead>
+	<tbody id="qr_error_tbody" style="display:none">
+	<tr>
+		<td class="thead">$vbphrase[errors_occured_when_submitted]</td>
+	</tr>
+	<tr>
+		<td class="alt1" id="qr_error_td"></td>
+	</tr>
+	<tr>
+		<td class="tfoot" align="center"><span class="smallfont"><a href="#" onclick="return qr_hide_errors()">$vbphrase[okay]</a></span></td>
+	</tr>
+	</tbody>
+	<tbody id="collapseobj_quickreply" style="$vbcollapse[collapseobj_quickreply]">
+	<tr>
+		<td class="panelsurround" align="center">
+			<div class="panel">
+				<div align="$stylevar[left]" style="max-width:$stylevar[formwidth]; width:auto !important; width:$stylevar[formwidth]">
+					<div class="smallfont">$vbphrase[message]:</div>
+					<div id="$editorid" class="vBulletin_editor">$messagearea</div>
+
+					<fieldset class="fieldset" style="margin:$stylevar[formspacer]px 0px 0px 0px">
+						<legend>$vbphrase[options]</legend>
+						<div style="padding:$stylevar[formspacer]px">
+							<if condition="$bbuserinfo['signature']">
+								<div style="float:$stylevar[right]"><label for="cb_signature"><input type="checkbox" name="signature" value="1" id="cb_signature" tabindex="5" checked="checked" />$vbphrase[show_your_signature]</label></div>
+							</if>
+							<label for="qr_quickreply"><input type="checkbox" name="quickreply" value="1" id="qr_quickreply" accesskey="w" tabindex="4" />$vbphrase[quote_message_in_reply]</label>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+
+			<div style="margin-top:$stylevar[cellpadding]px">
+				<input type="hidden" name="fromquickreply" value="1" />
+				<input type="hidden" name="s" value="$session[sessionhash]" />
+				<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+				<input type="hidden" name="do" value="postreply" />
+				<input type="hidden" name="t" value="$threadid" id="qr_threadid" />
+				<input type="hidden" name="p" value="$qrpostid" id="qr_postid" />
+				<input type="hidden" name="specifiedpost" value="0" id="qr_specifiedpost" />
+				<input type="hidden" name="parseurl" value="1" />
+				<input type="hidden" name="loggedinuser" value="$bbuserinfo[userid]" />
+				<input type="submit" class="button" value="$vbphrase[post_quick_reply]" accesskey="s" title="(Alt + S)" name="sbutton" tabindex="2" id="qr_submit" onclick="clickedelm = this.value" />
+				<input type="submit" class="button" value="$vbphrase[go_advanced]" accesskey="x" title="(Alt + X)" name="preview" tabindex="3" id="qr_preview" onclick="clickedelm = this.value" />
+			</div>
+
+			<div align="center" id="qr_posting_msg" style="display:none; margin-top:6px">
+				<img style="vertical-align: middle;" src="$stylevar[imgdir_misc]/progress.gif" alt="$vbphrase[posting_quick_reply_please_wait]" />&nbsp;<strong>$vbphrase[posting_quick_reply_please_wait]</strong>
+			</div>
+		</td>
+	</tr>
+	</tbody>
+	</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a1.gif" alt="" /></td>
+  <td width="100%" height="6" class="a6"></td>
+  <td width="9" height="6"><img width="9" height="6" border="0" src="$stylevar[imgdir_misc]/a3.gif" alt="" /></td>
+ </tr>
+</table>
+	</form>
+
+	<if condition="!is_browser('ie') AND $show['wysiwyg']">
+		<!-- Mozilla work around for focusing on QR in WYSIWYG mode -->
+		<div id="qr_scroll"></div>
+	</if>
+
+	<script type="text/javascript">
+	<!--
+		// initialize quick reply
+		qr_init();
+	//-->
+	</script>
+<!-- / quick reply -->
+</if>
+
+<if condition="$show['next_prev_links']">
+<!-- next / previous links -->
+	<br />
+	<div class="smallfont" align="center">
+		<strong>&laquo;</strong>
+			<a href="showthread.php?$session[sessionurl]t=$threadid&amp;goto=nextoldest" rel="nofollow">$vbphrase[prev_thread]</a>
+			|
+			<a href="showthread.php?$session[sessionurl]t=$threadid&amp;goto=nextnewest" rel="nofollow">$vbphrase[next_thread]</a>
+		<strong>&raquo;</strong>
+	</div>
+<!-- / next / previous links -->
+</if>
+
+<if condition="$show['activeusers']">
+<!-- currently active users -->
+	<br />
+	<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center">
+	<tr>
+		<td class="tcat" colspan="2">
+			<phrase 1="$totalonline" 2="$numberregistered" 3="$numberguest">$vbphrase[users_viewing_this_thread_x_y_z]</phrase>
+		</td>
+	</tr>
+	<tr>
+		<td class="alt1" colspan="2">
+			<span class="smallfont">$activeusers</span>
+		</td>
+	</tr>
+	</table>
+<!-- end currently active users -->
+</if>
+
+$template_hook[showthread_after_activeusers]
+
+<if condition="$show['popups']">
+<!-- popup menu contents -->
+<br />
+
+<!-- thread tools menu -->
+<div class="vbmenu_popup" id="threadtools_menu" style="display:none">
+<form action="postings.php?t=$threadid&amp;pollid=$pollid" method="post" name="threadadminform">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">$vbphrase[thread_tools]<a name="goto_threadtools"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/printer.gif" alt="$vbphrase[show_printable_version]" /> <a href="printthread.php?$session[sessionurl]t=$threadid" accesskey="3" rel="nofollow">$vbphrase[show_printable_version]</a></td>
+	</tr>
+	<if condition="$show['sendtofriend']">
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/sendtofriend.gif" alt="$vbphrase[email_this_page]" /> <a href="sendmessage.php?$session[sessionurl]do=sendtofriend&amp;t=$threadid" rel="nofollow">$vbphrase[email_this_page]</a></td>
+	</tr>
+	</if>
+	<if condition="$show['member']">
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/subscribe.gif" alt="$vbphrase[subscription]" />
+		<if condition="$show['subscribed']">
+			<a href="subscription.php?$session[sessionurl]do=removesubscription&amp;t=$threadid" rel="nofollow">$vbphrase[unsubscribe_from_this_thread]</a>
+		<else />
+			<a href="subscription.php?$session[sessionurl]do=addsubscription&amp;t=$threadid" rel="nofollow">$vbphrase[subscribe_to_this_thread]</a>
+		</if>
+		</td>
+	</tr>
+	</if>
+	<if condition="$show['addpoll']">
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/addpoll.gif" alt="$vbphrase[add_a_poll]" /> <a href="poll.php?$session[sessionurl]do=newpoll&amp;t=$threadinfo[threadid]">$vbphrase[add_a_poll_to_this_thread]</a></td>
+	</tr>
+	</if>
+	<if condition="$show['adminoptions']">
+	<tr>
+		<td class="thead">$vbphrase[admin_tools]<a name="goto_threadadmin"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+		<if condition="$show['openclose']"><div><label for="ao_oct"><input type="radio" name="do" id="ao_oct" value="openclosethread" checked="checked" /><if condition="$show['closethread']">$vbphrase[close_thread]<else />$vbphrase[open_thread]</if></label></div></if>
+		<if condition="$show['moderatethread']"><div><label for="ao_apr"><input type="radio" name="do" id="ao_apr" value="moderatethread" /><if condition="$show['approvethread']">$vbphrase[approve_thread]<else />$vbphrase[unapprove_thread]</if></label></div></if>
+		<if condition="$show['movethread']"><div><label for="ao_mvt"><input type="radio" name="do" id="ao_mvt" value="movethread" />$vbphrase[move_thread]</label></div>
+		<div><label for="ao_cpt"><input type="radio" name="do" id="ao_cpt" value="copythread" />$vbphrase[copy_thread]</label></div></if>
+		<if condition="$show['editthread']"><div><label for="ao_edt"><input type="radio" name="do" id="ao_edt" value="editthread" />$vbphrase[edit_thread]</label></div></if>
+		<if condition="$show['deletethread']"><div><label for="ao_dlt"><input type="radio" name="do" id="ao_dlt" value="deletethread" />$vbphrase[delete_thread]</label></div></if>
+		<if condition="$show['managethread']">
+			<div><label for="ao_sut"><input type="radio" name="do" id="ao_sut" value="stick" /><if condition="$show['unstick']">$vbphrase[unstick_thread]<else />$vbphrase[stick_thread]</if></label></div>
+			<div><label for="ao_mgt"><input type="radio" name="do" id="ao_mgt" value="mergethread" />$vbphrase[merge_threads]</label></div>
+			<div><label for="ao_rrd"><input type="radio" name="do" id="ao_rrd" value="removeredirect" />$vbphrase[remove_redirects]</label></div>
+		</if>
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite" align="center">
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+			<input type="hidden" name="t" value="$threadid" />
+			<input type="hidden" name="pollid" value="$pollid" />
+			<input type="submit" class="button" value="$vbphrase[perform_action]" />
+		</td>
+	</tr>
+	</if>
+	</table>
+</form>
+</div>
+<!-- / thread tools menu -->
+<if condition="$vboptions['allowthreadedmode']">
+<!-- **************************************************** -->
+
+<!-- thread display mode menu -->
+<div class="vbmenu_popup" id="displaymodes_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">$vbphrase[display_modes]<a name="goto_displaymodes"></a></td>
+	</tr>
+	<tr>
+	<if condition="$show['linearmode']">
+		<td class="vbmenu_option" title="nohilite"><img class="inlineimg" src="$stylevar[imgdir_button]/mode_linear.gif" alt="$vbphrase[linear_mode]" /> <strong>$vbphrase[linear_mode]</strong></td>
+	<else />
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/mode_linear.gif" alt="$vbphrase[linear_mode]" /> <a href="showthread.php?$session[sessionurl]p=$FIRSTPOSTID&amp;mode=linear$highlightwords#post$FIRSTPOSTID">$vbphrase[switch_to_linear_mode]</a></td>
+	</if>
+	</tr>
+	<tr>
+	<if condition="$show['hybridmode']">
+		<td class="vbmenu_option" title="nohilite"><img class="inlineimg" src="$stylevar[imgdir_button]/mode_hybrid.gif" alt="$vbphrase[hybrid_mode]" /> <strong>$vbphrase[hybrid_mode]</strong></td>
+	<else />
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/mode_hybrid.gif" alt="$vbphrase[hybrid_mode]" /> <a href="showthread.php?$session[sessionurl]mode=hybrid&amp;t=$thread[threadid]$highlightwords">$vbphrase[switch_to_hybrid_mode]</a></td>
+	</if>
+	</tr>
+	<tr>
+	<if condition="$show['threadedmode']">
+		<td class="vbmenu_option" title="nohilite"><img class="inlineimg" src="$stylevar[imgdir_button]/mode_threaded.gif" alt="$vbphrase[threaded_mode]" /> <strong>$vbphrase[threaded_mode]</strong></td>
+	<else />
+		<td class="vbmenu_option"><img class="inlineimg" src="$stylevar[imgdir_button]/mode_threaded.gif" alt="$vbphrase[threaded_mode]" /> <a href="showthread.php?$session[sessionurl]p=$FIRSTPOSTID&amp;mode=threaded$highlightwords#post$FIRSTPOSTID">$vbphrase[switch_to_threaded_mode]</a></td>
+	</if>
+	</tr>
+	</table>
+</div>
+<!-- / thread display mode menu -->
+</if>
+<!-- **************************************************** -->
+
+<if condition="$show['search']">
+<!-- thread search menu -->
+<div class="vbmenu_popup" id="threadsearch_menu" style="display:none">
+<form action="search.php?do=process&amp;searchthreadid=$threadid" method="post">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">$vbphrase[search_this_thread]<a name="goto_threadsearch"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+			<input type="hidden" name="do" value="process" />
+			<input type="hidden" name="searchthreadid" value="$threadid" />
+			<input type="text" class="bginput" name="query" size="25" />$gobutton<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="search.php?$session[sessionurl]searchthreadid=$threadid">$vbphrase[advanced_search]</a></td>
+	</tr>
+	</table>
+</form>
+</div>
+<!-- / thread search menu -->
+</if>
+
+<!-- **************************************************** -->
+
+<if condition="$show['threadrating']">
+	<!-- thread rating menu -->
+	<div class="vbmenu_popup" id="threadrating_menu" style="display:none">
+	<form action="threadrate.php?t=$threadid" method="post" id="showthread_threadrate_form">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">$vbphrase[rate_this_thread]<a name="goto_threadrating"></a></td>
+		</tr>
+		<if condition="$show['ratethread']">
+		<tr>
+			<td class="vbmenu_option" title="nohilite" id="threadrating_options">
+
+			<div><img class="inlineimg" src="$stylevar[imgdir_rating]/rating_5.gif" alt="$vbphrase[excellent]" /><label for="vote5"><input type="radio" name="vote" id="vote5" value="5" $votechecked[5] />$vbphrase[excellent]</label></div>
+			<div><img class="inlineimg" src="$stylevar[imgdir_rating]/rating_4.gif" alt="$vbphrase[good]" /><label for="vote4"><input type="radio" name="vote" id="vote4" value="4" $votechecked[4] />$vbphrase[good]</label></div>
+			<div><img class="inlineimg" src="$stylevar[imgdir_rating]/rating_3.gif" alt="$vbphrase[average]" /><label for="vote3"><input type="radio" name="vote" id="vote3" value="3" $votechecked[3] />$vbphrase[average]</label></div>
+			<div><img class="inlineimg" src="$stylevar[imgdir_rating]/rating_2.gif" alt="$vbphrase[bad]" /><label for="vote2"><input type="radio" name="vote" id="vote2" value="2" $votechecked[2] />$vbphrase[bad]</label></div>
+			<div><img class="inlineimg" src="$stylevar[imgdir_rating]/rating_1.gif" alt="$vbphrase[terrible]" /><label for="vote1"><input type="radio" name="vote" id="vote1" value="1" $votechecked[1] />$vbphrase[terrible]</label></div>
+			</td>
+		</tr>
+		<tr id="threadrating_submit">
+			<td class="vbmenu_option" title="nohilite" align="center">
+				<input type="hidden" name="s" value="$session[sessionhash]" />
+				<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+				<input type="hidden" name="t" value="$threadid" />
+				<input type="hidden" name="pp" value="$perpage" />
+				<input type="hidden" name="page" value="$pagenumber" />
+				<input type="submit" class="button" value="$vbphrase[vote_now]" />
+			</td>
+		</tr>
+		<else />
+		<tr>
+			<td class="vbmenu_option" title="nohilite">$vbphrase[already_rated_this_thread]</td>
+		</tr>
+		</if>
+		</table>
+	</form>
+	</div>
+	<!-- / thread rating menu -->
+
+	<script type="text/javascript" src="clientscript/vbulletin_ajax_threadrate.js?v=$vboptions[simpleversion]"></script>
+	<script type="text/javascript">
+	<!--
+	vB_AJAX_ThreadRate_Init('showthread_threadrate_form');
+	var threadid = $threadinfo[threadid];
+	//-->
+	</script>
+</if>
+
+<!-- / popup menu contents -->
+<else />
+<!-- controls for non-popup browsers -->
+
+
+<table class="tborder" cellpadding="$stylevar[cellpadding]" cellspacing="$stylevar[cellspacing]" border="0" width="100%" align="center" style="border-top-width:0px">
+<tr>
+	<td class="thead" <if condition="!$show['search']">colspan="2"</if>>$vbphrase[thread_tools]<a name="goto_threadtools"></a></td>
+	<if condition="$show['search']"><td class="thead">$vbphrase[search_this_thread]<a name="goto_threadsearch"></a></td></if>
+</tr>
+<tr valign="top">
+	<td class="alt1" <if condition="!$show['search']">colspan="2"</if>>
+
+	<!-- thread tools -->
+	<div class="smallfont">
+		<if condition="!$show['search_engine']">
+
+			<div><img class="inlineimg" src="$stylevar[imgdir_button]/printer.gif" alt="$vbphrase[show_printable_version]" vspace="1" /> <a href="printthread.php?$session[sessionurl]t=$threadid" rel="nofollow">$vbphrase[show_printable_version]</a></div>
+			<div><img class="inlineimg" src="$stylevar[imgdir_button]/sendtofriend.gif" alt="$vbphrase[email_this_page]" vspace="1" /> <a href="sendmessage.php?$session[sessionurl]do=sendtofriend&amp;t=$threadid" rel="nofollow">$vbphrase[email_this_page]</a></div>
+		</if>
+		<if condition="$show['member']">
+			<div><img class="inlineimg" src="$stylevar[imgdir_button]/subscribe.gif" alt="$vbphrase[subscription]" vspace="1" />
+				<if condition="$show['subscribed']">
+					<a href="subscription.php?$session[sessionurl]do=removesubscription&amp;t=$threadid">$vbphrase[unsubscribe_from_this_thread]</a>
+				<else />
+					<a href="subscription.php?$session[sessionurl]do=addsubscription&amp;t=$threadid">$vbphrase[subscribe_to_this_thread]</a>
+				</if>
+			</div>
+		</if>
+		<if condition="$show['addpoll']">
+			<div><img class="inlineimg" src="$stylevar[imgdir_button]/addpoll.gif" alt="$vbphrase[add_a_poll]" vspace="1" /> <a href="poll.php?$session[sessionurl]do=newpoll&amp;t=$threadinfo[threadid]">$vbphrase[add_a_poll_to_this_thread]</a></div>
+		</if>
+	</div>
+	<!-- / thread tools -->
+
+	</td>
+	<if condition="$show['search']">
+	<td class="alt1">
+
+	<!-- search this thread -->
+	<form action="search.php?do=process&amp;searchthreadid=$threadid" method="post">
+	<div class="smallfont">
+		<input type="hidden" name="s" value="$session[sessionhash]" />
+		<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+		<input type="hidden" name="do" value="process" />
+		<input type="hidden" name="searchthreadid" value="$threadid" />
+		<strong>$vbphrase[search_this_thread]</strong>:<br />
+		<input type="text" class="bginput" name="query" size="20" style="width:175px" />$gobutton<br />
+		<a href="search.php?$session[sessionurl]searchthreadid=$threadid">$vbphrase[advanced_search]</a>
+	</div>
+	</form>
+	<!-- /  search this thread -->
+
+	</td>
+	</if>
+</tr>
+<if condition="$vboptions['allowthreadedmode'] OR $show['threadrating']">
+<tr>
+	<if condition="$vboptions['allowthreadedmode']"><td class="thead" $nodhtmlcolspan>$vbphrase[display_modes]<a name="goto_displaymodes"></a></td></if>
+	<if condition="$show['threadrating']"><td class="thead" $nodhtmlcolspan>$vbphrase[rate_this_thread]<a name="goto_threadrating"></a></td></if>
+</tr>
+<tr valign="top">
+	<if condition="$vboptions['allowthreadedmode']">
+	<td class="alt2" $nodhtmlcolspan>
+
+	<!-- thread display modes -->
+
+	<div class="smallfont">
+		<div><img class="inlineimg" src="$stylevar[imgdir_button]/mode_linear.gif" alt="$vbphrase[linear_mode]" vspace="1" /> <if condition="$show['linearmode']"><strong>$vbphrase[linear_mode]</strong><else /><a href="showthread.php?$session[sessionurl]p=$FIRSTPOSTID&amp;mode=linear$highlightwords#post$FIRSTPOSTID">$vbphrase[switch_to_linear_mode]</a></if></div>
+		<div><img class="inlineimg" src="$stylevar[imgdir_button]/mode_hybrid.gif" alt="$vbphrase[hybrid_mode]" vspace="1" /> <if condition="$show['hybridmode']"><strong>$vbphrase[hybrid_mode]</strong><else /><a href="showthread.php?$session[sessionurl]mode=hybrid&amp;t=$thread[threadid]$highlightwords">$vbphrase[switch_to_hybrid_mode]</a></if></div>
+		<div><img class="inlineimg" src="$stylevar[imgdir_button]/mode_threaded.gif" alt="$vbphrase[threaded_mode]" vspace="1" /> <if condition="$show['threadedmode']"><strong>$vbphrase[threaded_mode]</strong><else /><a href="showthread.php?$session[sessionurl]p=$FIRSTPOSTID&amp;mode=threaded$highlightwords#post$FIRSTPOSTID">$vbphrase[switch_to_threaded_mode]</a></if></div>
+	</div>
+
+	<!-- / thread display modes -->
+
+	</td>
+	</if>
+	<if condition="$show['threadrating']">
+	<td class="alt2" $nodhtmlcolspan>
+
+	<!-- rate this thread -->
+	<form action="threadrate.php?t=$threadid" method="post">
+	<div class="smallfont">
+		<input type="hidden" name="s" value="$session[sessionhash]" />
+		<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+		<input type="hidden" name="t" value="$threadid" />
+		<input type="hidden" name="pp" value="$perpage" />
+		<input type="hidden" name="page" value="$pagenumber" />
+		<strong>$vbphrase[rate_this_thread]</strong>:<br />
+		<select name="vote" onchange="this.form.submit()" style="width:175px">
+			<optgroup label="$vbphrase[choose_a_rating]">
+				<option value="5" $voteselected[5]>5 : $vbphrase[excellent]</option>
+				<option value="4" $voteselected[4]>4 : $vbphrase[good]</option>
+				<option value="3" $voteselected[3]>3 : $vbphrase[average]</option>
+				<option value="2" $voteselected[2]>2 : $vbphrase[bad]</option>
+				<option value="1" $voteselected[1]>1 : $vbphrase[terrible]</option>
+			</optgroup>
+		</select>$gobutton
+	</div>
+	</form>
+	<!-- / rate this thread -->
+
+	</td>
+	</if>
+</tr>
+</if>
+</table>
+<br />
+
+
+<!-- / controls for non-popup browsers -->
+</if>
+
+<!-- forum rules and admin links -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="bottom">
+	<td width="100%" valign="top">
+		$forumrules
+	</td>
+	<td class="smallfont" align="$stylevar[right]">
+		<table cellpadding="0" cellspacing="0" border="0">
+		<if condition="!$show['popups'] AND $show['adminoptions']">
+		<tr>
+			<td>
+			<div class="smallfont" style="text-align:$stylevar[left]; white-space:nowrap">
+			<form action="postings.php?t=$threadid" method="post" name="adminoptionsform">
+			<input type="hidden" name="s" value="$session[sessionhash]" />
+			<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+			<input type="hidden" name="t" value="$threadid" />
+			<strong>$vbphrase[admin_tools]</strong>:<br />
+			<select name="do" onchange="this.form.submit()">
+				<if condition="$show['openclose']"><option value="openclosethread" selected="selected"><if condition="$show['closethread']">$vbphrase[close_thread]<else />$vbphrase[open_thread]</if></option></if>
+				<if condition="$show['moderatethread']"><option value="moderatethread"><if condition="$show['approvethread']">$vbphrase[approve_thread]<else />$vbphrase[unapprove_thread]</if></option></if>
+				<if condition="$show['editthread']"><option value="editthread">$vbphrase[edit_thread]</option></if>
+				<if condition="$show['deletethread']"><option value="deletethread">$vbphrase[delete_thread]</option></if>
+				<if condition="$show['movethread']"><option value="movethread">$vbphrase[move_thread]</option>
+				<option value="copythread">$vbphrase[copy_thread]</option></if>
+				<if condition="$show['managethread']">
+						<option value="stick"><if condition="$show['unstick']">$vbphrase[unstick_thread]<else />$vbphrase[stick_thread]</if></option>
+					<option value="mergethread">$vbphrase[merge_threads]</option>
+					<option value="removeredirect">$vbphrase[remove_redirects]</option>
+				</if>
+				<if condition="$show['editpoll']"><option value="editpoll">$vbphrase[edit_poll]</option></if>
+			</select>$gobutton
+			</form>
+			</div>
+			</td>
+		</tr>
+		<br />
+		</if>
+		<tr>
+			<td>
+			$forumjump
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- /forum rules and admin links -->
+
+<br />
+
+$similarthreads
+
+$footer
+
+<!-- temp -->
+<div style="display:none">
+	<!-- thread rate -->
+	<if condition="$show['ratethread']">
+		<!-- thread ratings form here -->
+	<else />
+		<if condition="$show['threadrating']">
+			$vbphrase[you_rated_this_thread]: <strong>$threadinfo[vote]</strong>
+		</if>
+	</if>
+	<!-- / thread rate -->
+</div>
+
+</body>
+</html>]]></template>
+	</templategroup>
+	<templategroup name="Ungrouped Templates">
+		<template name="footer" templatetype="template" date="1253232654" username="Sean" version="3.8.4"><![CDATA[$ad_location[ad_footer_start]
+
+<br />
+<div class="smallfont" align="center">$vbphrase[all_times_are_gmt_x_time_now_is_y]</div>
+<br />
+
+$spacer_close
+<!-- /content area table -->
+
+<form action="$vboptions[forumhome].php" method="get" style="clear:$stylevar[left]">
+
+<table cellpadding="$stylevar[cellpadding]" cellspacing="0" border="0" width="$stylevar[outertablewidth]" class="page" align="center">
+<tr>
+   <if condition="$show['quickchooser']">
+      <td class="tfoot">
+         <select name="styleid" onchange="switch_id(this, 'style')">
+            <optgroup label="$vbphrase[quick_style_chooser]">
+               $quickchooserbits
+            </optgroup>
+         </select>
+      </td>
+   </if>
+   <if condition="$show['languagechooser']">
+      <td class="tfoot">
+         <select name="langid" onchange="switch_id(this, 'lang')">
+            <optgroup label="$vbphrase[quick_language_chooser]">
+               $languagechooserbits
+            </optgroup>
+         </select>
+      </td>
+   </if>
+   <td class="tfoot" align="$stylevar[right]" width="100%">
+      <div class="smallfont">
+         <strong>
+            <if condition="$show['contactus']"><a href="$vboptions[contactuslink]" rel="nofollow" accesskey="9">$vbphrase[contact_us]</a> -</if>
+            <if condition="$vboptions['hometitle']"><a href="$vboptions[homeurl]">$vboptions[hometitle]</a> -</if>
+            <if condition="$show['admincplink']"><a href="$admincpdir/index.php$session[sessionurl_q]">$vbphrase[admin]</a> -</if>
+            <if condition="$show['modcplink']"><a href="$modcpdir/index.php$session[sessionurl_q]">$vbphrase[mod]</a> -</if>
+            <if condition="$vboptions['archiveenabled']"><a href="archive/index.php">$vbphrase[archive]</a> -</if>
+            $template_hook[footer_links]
+            <if condition="$vboptions[privacyurl]"><a href="$vboptions[privacyurl]">$vbphrase[privacy_statement]</a> -</if>
+            <if condition="$vboptions[tosurl]"><a href="$vboptions[tosurl]">$vbphrase[terms_of_service]</a> -</if>
+            <a href="#top" onclick="self.scrollTo(0, 0); return false;">$vbphrase[top]</a>
+         </strong>
+      </div>
+   </td>
+</tr>
+</table>
+
+</form>
+
+$ad_location[ad_footer_end]
+
+<if condition="$show['dst_correction']">
+<!-- auto DST correction code -->
+<form action="profile.php?do=dst" method="post" name="dstform">
+   <input type="hidden" name="s" value="$session[sessionhash]" />
+   <input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+   <input type="hidden" name="do" value="dst" />
+</form>
+<script type="text/javascript">
+<!--
+   var tzOffset = $bbuserinfo[timezoneoffset] + $bbuserinfo[dstonoff];
+   var utcOffset = new Date().getTimezoneOffset() / 60;
+   if (Math.abs(tzOffset + utcOffset) == 1)
+   {  // Dst offset is 1 so its changed
+      document.forms.dstform.submit();
+   }
+//-->
+</script>
+<!-- / auto DST correction code -->
+
+</if>
+    </td>
+    <td width="41" class="aq1-1"></td>
+   </tr>
+   <tr>
+    <td width="41"><img src="$stylevar[imgdir_misc]/s1.jpg" border="0" width="41" height="36" alt="" /></td>
+    <td width="100%" class="s2"></td>
+    <td width="41"><img src="$stylevar[imgdir_misc]/s1-1.jpg" border="0" width="41" height="36" alt="" /></td>
+   </tr>
+   <tr>
+    <td width="41" class="w1"></td>
+    <td width="100%" class="w2" align="center" valign="top">&nbsp;</td>
+    <td width="41" class="w1-1"></td>
+   </tr>
+   <tr>
+     <td width="41"><img src="$stylevar[imgdir_misc]/z1.jpg" border="0" width="41" height="10" alt="" /></td>
+     <td width="100%" class="z2"></td>
+     <td width="41"><img src="$stylevar[imgdir_misc]/z1-1.jpg" border="0" width="41" height="10" alt="" /></td>
+    </tr>
+   </table>
+   <br />
+ </td>
+ <td width="11" class="side3"><img border="0" src="$stylevar[imgdir_misc]/side3.jpg" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="11" class="side4"><img border="0" src="$stylevar[imgdir_misc]/side2.jpg" alt="" /></td>
+  <td colspan="2" width="100%">
+   <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+     <td width="40"><img width="40" src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+     <td width="100%" align="left">
+<div align="left">
+   <div class="smallfont" align="left">
+   <!-- Do not remove this copyright notice -->
+   $vbphrase[powered_by_vbulletin]
+   <!-- Do not remove this copyright notice -->
+   </div>
+
+   <div class="smallfont" align="left">
+   <!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+   &nbsp;&nbsp;&nbsp; $cronimage
+   <!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+
+   &nbsp;&nbsp;&nbsp; $vboptions[copyrighttext]
+<br />
+Template by <a href="http://www.bluepearl-design.com">Bluepearl Design</a> and <a href="http://www.vbulletin-templates.com">vBulletin Templates</a> - Ver2.2
+   </div>
+<br />
+</div>
+     </td>
+     <td width="488" valign="bottom" align="right"><a href="http://www.bluepearl-design.com"><img border="0" width="488" height="87" src="$stylevar[imgdir_misc]/house.gif" alt="Designed by Bluepearl Design" /></a></td>
+    </tr>
+   </table>
+  </td>
+  <td width="11" class="side5"><img src="$stylevar[imgdir_misc]/side3.jpg" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="11"><img border="0" width="11" height="11" src="$stylevar[imgdir_misc]/bot1.jpg" alt="" /></td>
+  <td colspan="2" width="100%" class="botbase"></td>
+  <td width="11" ><img border="0" width="11" height="11" src="$stylevar[imgdir_misc]/bot2.jpg" alt="" /></td>
+ </tr>
+</table>
+<script type="text/javascript">
+<!--
+   // Main vBulletin Javascript Initialization
+   vBulletin_init();
+//-->
+</script>]]></template>
+		<template name="header" templatetype="template" date="1223912293" username="Sean" version="3.7.3"><![CDATA[<!-- logo -->
+<a name="top"></a>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+ <tr>
+  <td width="11"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+  <td width="135"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+  <td width="100%"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+  <td width="11"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="11"><img width="11" height="135" border="0" src="$stylevar[imgdir_misc]/topside1.jpg" alt="" /></td>
+  <td colspan="2" width="100%" class="top">
+   <table class="top2" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+     <td width="50%"></td>
+     <td width="500" align="$stylevar[left]" height="135"><a href="$vboptions[forumhome].php$session[sessionurl_q]"><img width="500" height="135" border="0" src="$stylevar[imgdir_misc]/spacer.gif" alt="$vboptions[bbtitle]" /></a></td>
+     <td width="50%" align="$stylevar[right]" id="header_right_cell" height="135">
+      <if condition="$ad_location['ad_header_logo']">$ad_location[ad_header_logo]<else />&nbsp;</if>
+     </td>
+    </tr>
+   </table>
+  </td>
+  <td width="11"><img width="11" height="135" border="0" src="$stylevar[imgdir_misc]/topside2.jpg" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="11" class="side2"><img src="$stylevar[imgdir_misc]/spacer.gif" width="11" alt="" /></td>
+  <td width="134" class="side1"></td>
+  <td width="100%">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+     <td width="100%" class="headerbot"><img src="$stylevar[imgdir_misc]/spacer.gif" height="4" alt="" /></td>
+    </tr>
+   </table>
+<div style="padding: 0 0 7px 0;"></div>
+<!-- /logo -->
+<table width="99%" cellpadding="0" cellspacing="0" border="0" align="center">
+ <tr>
+  <td width="41"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+  <td width="100%"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+  <td width="41"><img src="$stylevar[imgdir_misc]/spacer.gif" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="41"><img src="$stylevar[imgdir_misc]/q1.jpg" border="0" width="41" height="7" alt="" /></td>
+  <td width="100%" class="q3"></td>
+  <td width="41"><img src="$stylevar[imgdir_misc]/q1-1.jpg" border="0" width="41" height="7" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="41"><img src="$stylevar[imgdir_misc]/q4.jpg" border="0" width="41" height="26" alt="" /></td>
+  <td width="100%" class="q5"></td>
+  <td width="41"><img src="$stylevar[imgdir_misc]/q4-1.jpg" border="0" width="41" height="26" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="41"><img src="$stylevar[imgdir_misc]/a1.jpg" border="0" width="41" height="15" alt="" /></td>
+  <td width="100%" class="a2"></td>
+  <td width="41"><img src="$stylevar[imgdir_misc]/a1-1.jpg" border="0" width="41" height="15" alt="" /></td>
+ </tr>
+ <tr>
+  <td width="41" class="aq1"></td>
+  <td width="100%" bgcolor="#181818">
+<!-- content table -->
+$spacer_open
+
+$_phpinclude_output
+
+$ad_location[ad_header_end]]]></template>
+	</templategroup>
+</style>

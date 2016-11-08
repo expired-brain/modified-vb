@@ -1,0 +1,57 @@
+<tr>
+<td>MMN:</td>
+<td ng-if="data.is_mmn==1" >YES</td>
+<td ng-if="data.is_mmn!=1">NO</td>
+</tr>
+
+<tr>
+<td>SSN:</td>
+<td ng-if="data.ssn==1" >YES</td>
+<td ng-if="data.ssn!=1">NO</td>
+</tr>
+
+<tr>
+<td>DOB:</td>
+<td ng-if="data.dob==1" >YES</td>
+<td ng-if="data.dob!=1">NO</td>
+</tr>
+
+<tr>
+<td>PHONE:</td>
+<td ng-if="data.phone==1" >YES</td>
+<td ng-if="data.phone!=1">NO</td>
+</tr>
+
+<tr>
+<td>VBV:</td>
+<td ng-if="data.vbv==1" >YES</td>
+<td ng-if="data.vbv!=1">NO</td>
+</tr>
+
+<tr>
+<td>EMAIL:</td>
+<td ng-if="data.email==1" >YES</td>
+<td ng-if="data.email!=1">NO</td>
+</tr>
+
+<tr>
+<td>SORT:</td>
+<td ng-if="data.sort==1" >YES</td>
+<td ng-if="data.sort!=1">NO</td>
+</tr>
+
+<tr>
+<td>OTHERINFO:</td>
+<td ng-if="data.is_otherinfo==1" >YES</td>
+<td ng-if="data.is_otherinfo!=1">NO</td>
+</tr>
+
+
+
+
+
+
+
+
+
+

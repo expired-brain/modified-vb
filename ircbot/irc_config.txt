@@ -1,0 +1,9 @@
+server: irc.crimeircd.net
+server1: irc.badircd.net
+server2: irc.chknet.cc
+server3: irc.blackirc.net
+port: 6667
+channel: #unix
+nick: expired
+password: exp9007
+reconnect: 300

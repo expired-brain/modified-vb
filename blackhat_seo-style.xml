@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<style name="BlackHat SEO" vbversion="3.8.1" product="vbulletin" type="custom">
+	<templategroup name="CSS Special Templates">
+		<template name=".alt1, .alt1Active" templatetype="css" date="1230474086" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#CCCCCC";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".alt2, .alt2Active" templatetype="css" date="1230474121" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#999999";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".navbar" templatetype="css" date="1230473981" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:6:"medium";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".page" templatetype="css" date="1230473547" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#333333";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:0:"";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".tborder" templatetype="css" date="1230473595" username="admin" version=""><![CDATA[a:4:{s:10:"background";s:7:"#333333";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:26:"border: 1px solid #333333;";}]]></template>
+		<template name=".tcat" templatetype="css" date="1230474580" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#333333";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:4:"bold";s:4:"size";s:4:"10pt";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#ffffff";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#ffffff";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFF66";s:15:"text-decoration";s:9:"underline";}}]]></template>
+		<template name=".tfoot" templatetype="css" date="1230474021" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#F8C100";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#000000";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#000000";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFF66";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".thead" templatetype="css" date="1230473859" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#F8C100";s:5:"color";s:7:"#000000";s:4:"font";a:3:{s:5:"style";s:4:"bold";s:4:"size";s:4:"11px";s:6:"family";s:78:"tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:0:"";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFF00";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name=".time" templatetype="css" date="1230479844" username="admin" version=""><![CDATA[a:4:{s:10:"background";s:0:"";s:5:"color";s:7:"#F8C100";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:0:"";s:6:"family";s:0:"";}s:5:"EXTRA";s:0:"";}]]></template>
+		<template name=".vbmenu_control" templatetype="css" date="1230473681" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#333333";s:5:"color";s:7:"#FFFFFF";s:4:"font";a:3:{s:5:"style";s:4:"bold";s:4:"size";s:4:"11px";s:6:"family";s:78:"tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:47:"padding: 3px 6px 3px 6px;
+white-space: nowrap;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:4:"none";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:9:"underline";}}]]></template>
+		<template name="body" templatetype="css" date="1230486475" username="admin" version=""><![CDATA[a:7:{s:10:"background";s:7:"#E1E1E2";s:5:"color";s:7:"#ffffff";s:4:"font";a:3:{s:5:"style";s:0:"";s:4:"size";s:4:"10pt";s:6:"family";s:70:"verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif";}s:5:"EXTRA";s:42:"margin: 5px 10px 10px 10px;
+padding: 0px;";s:6:"LINK_N";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#666666";s:15:"text-decoration";s:0:"";}s:6:"LINK_V";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#666666";s:15:"text-decoration";s:0:"";}s:6:"LINK_M";a:3:{s:10:"background";s:0:"";s:5:"color";s:7:"#FFFFFF";s:15:"text-decoration";s:0:"";}}]]></template>
+		<template name="EXTRA2" templatetype="css" date="1230486250" username="admin" version=""><![CDATA[a:1:{s:3:"all";s:3556:"body {
+	background-color: black;
+	margin-right: 0em;
+	margin-left: 0px;
+}
+
+#header1_02 {
+	background-image: url('images/blackhat_seo/BlackHat_02.gif');
+	background-repeat: no-repeat;
+	float: left;
+	width: 566px;
+	height: 68px;
+}
+#header1 {
+	width: 959px;
+	height: 68px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header1_03 {
+	background-image: url('images/blackhat_seo/BlackHat_03.gif');
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 68px;
+	float: left;
+}
+#header1_04 {
+	width: 113px;
+	height: 68px;
+	float: left;
+}
+#headerbg_white {
+	background-color: #FFFFFF;
+	width: auto;
+	height: 150px;
+	margin-right: 0em;
+	margin-left: 0em;
+}
+#header2 {
+	width: 959px;
+	height: 85px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header2_08 {
+	width: 113px;
+	height: 85px;
+	float: left;
+}
+#header2_07 {
+	background-image: url('images/blackhat_seo/BlackHat_07.gif');
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 85px;
+	float: left;
+}
+#header2_06 {
+	width: 566px;
+	height: 85px;
+	float: left;
+}
+#header3 {
+	width: 959px;
+	height: 65px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header3_09 {
+	background-image: url('images/blackhat_seo/BlackHat_09.gif');
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 65px;
+	float: left;
+}
+#header3_10 {
+	background-image: url('images/blackhat_seo/BlackHat_fill_11.gif');
+	background-repeat: repeat-x;
+	width: 540px;
+	height: 65px;
+	float: left;
+}
+#header3_11 {
+	background-image: url('images/blackhat_seo/BlackHat_11.gif');
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 65px;
+	float: left;
+}
+#header3_12 {
+	background-image: url('images/blackhat_seo/BlackHat_fill_11.gif');
+	background-repeat: repeat-x;
+	width: 87px;
+	height: 65px;
+	float: left;
+}
+#header3_13 {
+	background-image: url('images/blackhat_seo/BlackHat_13.gif');
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 65px;
+	float: left;
+}
+#header4 {
+	width: 959px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header4_14 {
+	background-image: url('images/blackhat_seo/BlackHat_14.gif');
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 60px;
+	float: left;
+}
+#header4_15 {
+	background-color: #333333;
+	width: 540px;
+	height: 60px;
+	float: left;
+}
+#header4_16 {
+	background-image: url('images/blackhat_seo/BlackHat_16.gif');
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 60px;
+	float: left;
+}
+#header4_17 {
+	background-color: #333333;
+	width: 87px;
+	height: 60px;
+	float: left;
+}
+#header4_18 {
+	background-image: url('images/blackhat_seo/BlackHat_18.gif');
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 60px;
+	float: left;
+}
+#blackhat_19 {
+	width: 959px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url('images/blackhat_seo/BlackHat_19.gif');
+	background-repeat: repeat-y;
+}
+#footer {
+	width: 959px;
+	height: 27px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer_21 {
+	background-image: url('images/blackhat_seo/BlackHat_21.gif');
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 27px;
+	float: left;
+}
+#footer_22 {
+	background-image: url('images/blackhat_seo/BlackHat_22.gif');
+	background-repeat: repeat-x;
+	width: 900px;
+	height: 27px;
+	float: left;
+}
+#footer_24 {
+	background-image: url('images/blackhat_seo/BlackHat_24.gif');
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 27px;
+	float: left;
+}
+.v7_copyright {
+	color: #FFFFFF;
+}
+.v7_copyright a:link{
+	color:#FFFFFF
+}
+";}]]></template>
+	</templategroup>
+	<templategroup name="StyleVar Special Templates">
+		<template name="imgdir_button" templatetype="stylevar" date="1230479534" username="admin" version=""><![CDATA[images/blackhat_seo/buttons]]></template>
+		<template name="imgdir_misc" templatetype="stylevar" date="1230480780" username="admin" version=""><![CDATA[images/blackhat_seo/misc]]></template>
+		<template name="imgdir_statusicon" templatetype="stylevar" date="1230478921" username="admin" version=""><![CDATA[images/blackhat_seo/statusicon]]></template>
+		<template name="outertablewidth" templatetype="stylevar" date="1230473457" username="admin" version=""><![CDATA[95%]]></template>
+		<template name="spacersize" templatetype="stylevar" date="1230473457" username="admin" version=""><![CDATA[5]]></template>
+	</templategroup>
+	<templategroup name="Ungrouped Templates">
+		<template name="footer" templatetype="template" date="1236942713" username="demo" version="3.8.1"><![CDATA[$ad_location[ad_footer_start]
+
+<br />
+<div class="smallfont" align="center">$vbphrase[all_times_are_gmt_x_time_now_is_y]</div>
+<br />
+
+$spacer_close
+<!-- /content area table -->
+
+<form action="$vboptions[forumhome].php" method="get" style="clear:$stylevar[left]">
+
+<table cellpadding="$stylevar[cellpadding]" cellspacing="0" border="0" width="$stylevar[outertablewidth]" class="page" align="center">
+<tr>
+	<if condition="$show['quickchooser']">
+		<td class="tfoot">
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="$vbphrase[quick_style_chooser]">
+					$quickchooserbits
+				</optgroup>
+			</select>
+		</td>
+	</if>
+	<if condition="$show['languagechooser']">
+		<td class="tfoot">
+			<select name="langid" onchange="switch_id(this, 'lang')">
+				<optgroup label="$vbphrase[quick_language_chooser]">
+					$languagechooserbits
+				</optgroup>
+			</select>
+		</td>
+	</if>
+	<td class="tfoot" align="$stylevar[right]" width="100%">
+		<div class="smallfont">
+			<strong>
+				<if condition="$show['contactus']"><a href="$vboptions[contactuslink]" rel="nofollow" accesskey="9">$vbphrase[contact_us]</a> -</if>
+				<if condition="$vboptions['hometitle']"><a href="$vboptions[homeurl]">$vboptions[hometitle]</a> -</if>
+				<if condition="$show['admincplink']"><a href="$admincpdir/index.php$session[sessionurl_q]">$vbphrase[admin]</a> -</if>
+				<if condition="$show['modcplink']"><a href="$modcpdir/index.php$session[sessionurl_q]">$vbphrase[mod]</a> -</if>
+				<if condition="$vboptions['archiveenabled']"><a href="archive/index.php">$vbphrase[archive]</a> -</if>
+				$template_hook[footer_links]
+				<if condition="$vboptions[privacyurl]"><a href="$vboptions[privacyurl]">$vbphrase[privacy_statement]</a> -</if>
+<if condition="$vboptions[tosurl]"><a href="$vboptions[tosurl]">$vbphrase[terms_of_service]</a> -</if>
+				<a href="#top" onclick="self.scrollTo(0, 0); return false;">$vbphrase[top]</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove this copyright notice -->
+	$vbphrase[powered_by_vbulletin]
+	<!-- Do not remove this copyright notice -->
+	</div>
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove $cronimage or your scheduled tasks will cease to function -->
+	$cronimage
+	<!-- Do not remove $cronimage or your scheduled tasks will cease to function -->
+
+
+<div class="v7_copyright">
+<a href="http://v7web.net">Design By v7web.net</a>
+</div><!-- /v7_copyright -->
+
+
+
+	$vboptions[copyrighttext]
+	</div>
+</div>
+
+</form>
+
+
+$ad_location[ad_footer_end]
+
+<if condition="$show['dst_correction']">
+<!-- auto DST correction code -->
+<form action="profile.php?do=dst" method="post" name="dstform">
+	<input type="hidden" name="s" value="$session[sessionhash]" />
+	<input type="hidden" name="securitytoken" value="$bbuserinfo[securitytoken]" />
+	<input type="hidden" name="do" value="dst" />
+</form>
+<script type="text/javascript">
+<!--
+	var tzOffset = $bbuserinfo[timezoneoffset] + $bbuserinfo[dstonoff];
+	var utcOffset = new Date().getTimezoneOffset() / 60;
+	if (Math.abs(tzOffset + utcOffset) == 1)
+	{	// Dst offset is 1 so its changed
+		document.forms.dstform.submit();
+	}
+//-->
+</script>
+<!-- / auto DST correction code -->
+
+</if>
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+</div><!-- /blackhat_content -->
+</div><!-- /blackhat_19 -->
+
+
+<div id="footer">
+<div id="footer_21"></div>
+<div id="footer_22"></div>
+<div id="footer_24"></div>
+</div><!-- /footer -->
+
+<div id="spacer">
+<img alt="spacer" height="1" src="http://v7web.net/blackhat_seo_spacer.gif" width="1" />
+</div>
+]]></template>
+		<template name="header" templatetype="template" date="1230473340" username="admin" version="3.7.4"><![CDATA[<div id="header1">
+<div id="header1_02" ></div>
+<div id="header1_03" ></div>
+<div id="header1_04" ></div>
+</div><!-- /header1 -->
+
+<div id="headerbg_white">
+
+<div id="header2">
+<div id="header2_06"></div>
+<div id="header2_07"></div>
+<div id="header2_08"></div>
+</div><!-- /header2 -->
+
+<div id="header3">
+<div id="header3_09"></div>
+<div id="header3_10"></div>
+<div id="header3_11"></div>
+<div id="header3_12" style="height: 65px"></div>
+<div id="header3_13"></div>
+
+</div><!-- /header3 -->
+</div><!-- /headerbg_white -->
+
+<div id="header4">
+<div id="header4_14"></div>
+<div id="header4_15"></div>
+<div id="header4_16"></div>
+<div id="header4_17"></div>
+<div id="header4_18"></div>
+</div><!-- /header4 -->
+
+
+<div id="blackhat_19">
+<div id="blackhat_content">
+
+
+
+<!-- content table -->
+$spacer_open
+
+$_phpinclude_output
+
+$ad_location[ad_header_end]]]></template>
+	</templategroup>
+</style>
